@@ -1,4 +1,42 @@
 .navbar {
     display: flex;
-    background-color: blue;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+.navbar_list {
+    display: flex;
+    list-style: none;
+    gap: 1rem;
+}
+.dropdown-toggle,
+.menu_exit{
+    display: none;
+}
+@media screen and (max-width: 768px) {
+    .dropdown-toggle {
+        display: block;
+    }
+    .menu_exit {
+        display: block;
+    }
+    .section_navbar {
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+        position: absolute;
+        opacity: 0px;
+        visibility: hidden; 
+        top: 0px;
+        right: 0px;
+        background-color: black;
+        padding: 2rem;
+        bottom: 0px;
+        box-shadow: 0 0 0 100vmax rgb(0, 0, 0, .5);
+        color: white;
+    }
+    .navbar_list {
+        flex-direction: column;
+        align-items: end;
+    }
 }

@@ -1,4 +1,5 @@
-
+import './Header.css'
+import { Headersbutton } from './Headers.button'
 
 export const Headers = () => {
     return (
@@ -11,21 +12,22 @@ export const Headers = () => {
                     <input type="search" placeholder="Search" />
                 </nav>
             </section>
-            <section>
+            <section className="section_navbar">
                 <nav>
-                    <li>Home</li>
-                    <li>About</li>
-                    <li>Contacts</li>
-                    <li>Blog</li>
+                    <ul className="navbar_list">
+                        <li>Home</li>
+                        <li>About</li>
+                        <li>Contacts Us</li>
+                        <li>Blog</li>
+                        <li>Like</li>
+                        <li>Car</li>
+                        <li>Login</li>
+                    </ul>
                 </nav>
             </section>
-            <section>
-                <nav>
-                    <li>Like</li>
-                    <li>Carrito</li>
-                    <li>Login</li>
-                </nav>
-            </section>
+            <div className="dropdown-toggle">
+                <Headersbutton />
+            </div>
         </header>
     )
 }
