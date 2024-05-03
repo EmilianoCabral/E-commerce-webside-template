@@ -4,13 +4,9 @@ import { Headersbutton } from './Headers.button'
 export const Headers = () => {
     return (
         <header className="navbar">
-            <div>
+            <section className="section_name">
                 <h2>Cyber</h2>
-            </div>
-            <section>
-                <nav>
-                    <input type="search" placeholder="Search" />
-                </nav>
+                <input type="search" placeholder="Search" />
             </section>
             <section className="section_navbar">
                 <nav>

@@ -1,3 +1,23 @@
 .banner_img {
     width: 100%;
 }
+.background_banner{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 80rem;
+    height: 100vh;
+}
+.background_banner p{
+    font-size: 1.5rem;
+}
+.main_container{
+    background-color: #31363F;
+}
+
+@media screen and (max-width:768px) {
+    /*  */
+}
