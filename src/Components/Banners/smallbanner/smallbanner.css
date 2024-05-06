@@ -1,0 +1,26 @@
+.small_banner{
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-areas: 
+    "box1 box1 box2 box2"
+    "box3 box4 box2 box2";
+}
+.box1{
+    grid-area: box1;
+    background-color: blue;
+}
+.box2{
+    grid-area: box2;
+    width: 960px;
+    height: 720px;
+    background-color: yellow;
+}
+.box3{
+    grid-area: box3;
+    background-color: blueviolet;
+}
+.box4{
+    grid-area: box4;
+    background-color: green;
+}

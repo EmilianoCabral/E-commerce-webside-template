@@ -1,0 +1,49 @@
+.banner_img {
+    height: 54rem;
+}
+
+.background_banner{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100rem;
+}
+.button{
+    padding: 1rem;
+    border-radius: 12px;
+    width: 17rem;
+    font-size: 2rem;
+    background-color:  rgb(0 0 0 / 0%);
+    color: white;
+    border: 1px solid white;
+    cursor: pointer;
+}
+.section_title{
+    color: white;
+}
+.background_banner p{
+    font-size: 1.5rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+.main_container{
+    background-color: #2e2f3d;
+}
+
+@media screen and (max-width:768px) {
+    .background_banner{
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 100rem;
+    }
+}
+@media screen and (max-width:1400px) {
+    .background_banner{
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 100rem;
+    }
+}
