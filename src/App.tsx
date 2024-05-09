@@ -12,10 +12,12 @@ function App() {
   return (
     <>
       <Headers />
-        <Banner />
-        <Smallerbanners />
-        <Browsercategory />
-        <Productos />
+        <main>
+            <Banner />
+            <Smallerbanners />
+            <Browsercategory />
+            <Productos />
+        </main>
       <Footer />
     </>
   )

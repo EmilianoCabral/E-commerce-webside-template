@@ -8,22 +8,22 @@ export const Browsercategory = () => {
                     <h2>Browse By category</h2>
                 </div>
                 <article className="browse_items">
-                    <article>
+                    <article className="items">
                         <img src="https://placehold.co/160x128" alt="" />
                     </article>
-                    <article>
+                    <article className="items">
                         <img src="https://placehold.co/160x128" alt="" />
                     </article>
-                    <article>
+                    <article className="items">
                         <img src="https://placehold.co/160x128" alt="" />
                     </article>
-                    <article>
+                    <article className="items">
                         <img src="https://placehold.co/160x128" alt="" />
                     </article>
-                    <article>
+                    <article className="items">
                         <img src="https://placehold.co/160x128" alt="" />
                     </article>
-                    <article>
+                    <article className="items">
                         <img src="https://placehold.co/160x128" alt="" />
                     </article>
                 </article>

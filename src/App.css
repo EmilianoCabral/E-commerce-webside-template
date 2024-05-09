@@ -19,7 +19,12 @@
         animation: logo-spin infinite 20s linear;
     }
 }
-
+.main_container {
+    width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 100rem;
+}
 .card {
     padding: 2em;
 }
