@@ -26,3 +26,9 @@
     margin-top: 1.5rem;
     gap: 2rem;
 }
+
+@media (max-width:1440px) {
+    .container_footer{
+        max-width: 70rem;
+    }
+}

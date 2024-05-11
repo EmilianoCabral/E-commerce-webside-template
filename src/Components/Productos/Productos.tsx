@@ -4,9 +4,24 @@ export const Productos = () => {
     return (
         <section className="section_products">
             <div className="products_container">
+                <div>
+                    <h2>title</h2>
+                </div>
                 <div className="products_items">
                     <article className="article1">
-                        <p>1</p>
+                        <div>
+                            <img src="https://placehold.co/160x160" alt="" />
+                        </div>
+                        <div>
+                            <h3>Apple iphone 14 pro Max 128GB</h3>
+                            <p>deep purple</p>
+                        </div>
+                        <div>
+                            <p>$900</p>
+                        </div>
+                        <div>
+                            button
+                        </div>
                     </article>
                     <article className="article2">
                         <p>2</p>
