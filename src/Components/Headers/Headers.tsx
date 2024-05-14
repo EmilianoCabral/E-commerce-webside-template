@@ -6,8 +6,12 @@ export const Headers = () => {
         <header>
             <div className="navbar">
                 <section className="section_name">
-                    <h2>Cyber</h2>
-                    <input type="search" placeholder="Search" />
+                    <div>
+                        <h2>Cyber</h2>
+                    </div>
+                    <div className="search_input">
+                        <input type="search" placeholder="Search" />
+                    </div>
                 </section>
                 <section className="section_navbar">
                     <nav>

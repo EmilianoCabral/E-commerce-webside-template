@@ -24,3 +24,9 @@
     grid-area: box4;
     background-color: green;
 }
+@media (max-width:1440px) {
+    .box2{
+        width: 720px;
+        height: 600px;
+    }
+}
