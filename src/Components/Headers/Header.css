@@ -8,12 +8,14 @@
     margin-right: auto;
     max-width: 70rem;
 }
-.section_name{
+
+.section_name {
     display: flex;
     gap: 3rem;
     align-items: center;
 }
-.search_input input{
+
+.search_input input {
     width: 15rem;
     height: 3rem;
     border-radius: 9px;
@@ -24,29 +26,34 @@
     background-color: #80808066;
     padding: 1rem;
 }
+
 .navbar_list {
     display: flex;
     list-style: none;
     gap: 3rem;
 }
+
 .dropdown-toggle,
-.menu_exit{
+.menu_exit {
     display: none;
 }
+
 @media screen and (max-width: 900px) {
     .dropdown-toggle {
         display: block;
     }
+
     .menu_exit {
         display: block;
     }
+
     .section_navbar {
         display: flex;
         flex-direction: column;
         align-items: end;
         position: absolute;
         opacity: 0px;
-        visibility: hidden; 
+        visibility: hidden;
         top: 0px;
         right: 0px;
         background-color: black;
@@ -55,8 +62,27 @@
         box-shadow: 0 0 0 100vmax rgb(0, 0, 0, .5);
         color: white;
     }
+
     .navbar_list {
         flex-direction: column;
         align-items: end;
     }
+}
+
+/*queries*/
+
+
+/*teléfonos móviles */
+@media only screen and (max-width: 600px) {
+    /* Agrega aquí los estilos específicos para pantallas pequeñas */
+}
+
+/* tabletas */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+    /* Agrega aquí los estilos específicos para pantallas medianas */
+}
+
+/* computadoras de escritorio */
+@media only screen and (min-width: 1025px) {
+    /* Agrega aquí los estilos específicos para pantallas grandes */
 }

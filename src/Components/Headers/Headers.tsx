@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import './Header.css'
 import { Headersbutton } from './Headers.button'
 
@@ -16,20 +17,14 @@ export const Headers = () => {
                 <section className="section_navbar">
                     <nav>
                         <ul className="navbar_list">
-                            <li>Home</li>
+                            <li><Link to="/">Home</Link></li>
                             <li>About</li>
                             <li>Contacts Us</li>
                             <li>Blog</li>
-                        </ul>
-                    </nav>
-                </section>
-                <section>
-                    <nav>
-                        <ul className="navbar_list">
                             <li>Like</li>
                             <li>Car</li>
                             <li>Login</li>
-                            </ul>
+                        </ul>
                     </nav>
                 </section>
                 <div className="dropdown-toggle">

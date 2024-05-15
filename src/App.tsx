@@ -2,30 +2,23 @@
 
 import { Headers } from './Components/Headers/Headers'
 import { Footer } from './Components/Footer/Footer'
-import { Banner } from './Components/Banners/Banner'
-import { Smallerbanners } from './Components/Banners/smallbanner/Smallerbanners'
-import { Browsercategory } from './Components/Browserbycategory.tsx/Browsercategory'
-import { Productos } from './Components/Productos/Productositems'
-import { Bannerproduc } from './Components/Banners/Banners.produc/Bannerproduc'
-import { Discountproduc } from './Components/Discountproduct/Discountproduc'
-import { Sumersale } from './Components/Sumersale/Sumersale'
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import { Pageproductos } from './pages/Pageproductos'
+import { Home } from './pages/Home'
 
 function App() {
 
   return (
-    <>
+    <BrowserRouter>
       <Headers />
         <main>
-            <Banner />
-            <Smallerbanners />
-            <Browsercategory />
-            <Productos />
-            <Bannerproduc />
-            <Discountproduc />
-            <Sumersale />
+          <Routes>
+            <Route path='/' element={<Home />} />
+            <Route path='/Pageproductos' element={<Pageproductos />} />
+          </Routes>
         </main>
       <Footer />
-    </>
+    </BrowserRouter>
   )
 }
 
