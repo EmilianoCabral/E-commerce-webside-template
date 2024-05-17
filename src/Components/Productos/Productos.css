@@ -1,23 +1,25 @@
-.products_container{
+.products_container {
     width: 100%;
     margin-left: auto;
     margin-right: auto;
     max-width: 100rem;
     margin-top: 2rem;
     margin-bottom: 2rem;
-    
+
 }
+
 .products_items {
     display: grid;
     gap: 1rem;
-    
+
     grid-template-rows: repeat(2, 1fr);
     grid-template-columns: repeat(4, 1fr);
-    grid-template-areas: 
-    "article1 article2 article3 article4"
-    "article5 article6 article7 article8";
+    grid-template-areas:
+        "article1 article2 article3 article4"
+        "article5 article6 article7 article8";
 }
-.article1{
+
+.article1 {
     background-color: blue;
     height: 432px;
     border-radius: 9px;
@@ -26,48 +28,103 @@
     align-items: center;
     justify-content: center;
 }
-.article2{
+
+.article2 {
     background-color: blue;
     height: 432px;
     border-radius: 9px;
 }
-.article3{
+
+.article3 {
     background-color: blue;
     height: 432px;
     border-radius: 9px;
     height: 432px;
     border-radius: 9px;
 }
-.article4{
+
+.article4 {
     background-color: blue;
     height: 432px;
     border-radius: 9px;
 }
-.article5{
+
+.article5 {
     background-color: blue;
     height: 432px;
     border-radius: 9px;
 }
-.article6{
+
+.article6 {
     background-color: blue;
     height: 432px;
     border-radius: 9px;
 }
-.article7{
+
+.article7 {
     background-color: blue;
     height: 432px;
     border-radius: 9px;
 }
-.article8{
+
+.article8 {
     background-color: blue;
     height: 432px;
     border-radius: 9px;
 }
 
 /**media queries**/
+
+/* teléfonos móviles */
+@media (max-width: 624px) {
+    .products_items {
+        display: grid;
+        gap: 1rem;
+    
+        grid-template-rows: repeat(2, 1fr);
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-areas:
+            "article1 article2"
+            "article3 article4"
+            "article5 article6"
+            "article7 article8";
+    }
+    .products_container {
+        width: 90%;
+        margin: 0 auto;
+    
+    }
+}
+
+/*  tabletas */
+@media only screen and (min-width: 625px) and (max-width: 1024px) {
+    .products_items {
+        display: grid;
+        gap: 1rem;
+    
+        grid-template-rows: repeat(2, 1fr);
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-areas:
+            "article1 article2"
+            "article3 article4"
+            "article5 article6"
+            "article7 article8";
+    }
+    .products_container {
+        width: 90%;
+        margin: 0 auto;
+    
+    }
+}
+
+/* computadoras de escritorio */
+@media only screen and (min-width: 1025px) {
+    
+}
+
 @media (max-width:1440px) {
-    .products_container{
+    .products_container {
         max-width: 70rem;
-        
+
     }
 }

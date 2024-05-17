@@ -4,7 +4,7 @@ import { Headersbutton } from './Headers.button'
 
 export const Headers = () => {
     return (
-        <header>
+        <header className="header_container">
             <div className="navbar">
                 <section className="section_name">
                     <div>

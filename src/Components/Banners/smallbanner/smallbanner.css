@@ -29,18 +29,19 @@
     background-color: green;
 }
 
-@media (max-width:1440px) {
+/* @media (max-width:1440px) {
     .box2 {
         width: 720px;
         height: 600px;
     }
-}
+} */
 
 /* Estilos generales para todas las pantallas */
 
 /* Estilos específicos para pantallas pequeñas (por ejemplo, teléfonos móviles) */
-@media (max-width: 600px) {
+@media (max-width: 624px) {
     .small_banner {
+        position: relative;
         display: grid;
         grid-template-rows: repeat(4, 1fr);
         grid-template-columns: repeat(1, 1fr);
@@ -73,11 +74,21 @@
     background-color: green;
 }
 /* Estilos específicos para pantallas medianas (por ejemplo, tabletas) */
-@media only screen and (min-width: 601px) and (max-width: 1024px) {
-    
+@media (min-width: 625px) and (max-width: 1024px) {
+    .small_banner {
+        position: relative;
+        display: grid;
+        grid-template-rows: repeat(2, 1fr);
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-areas:
+            "box2 box2 "
+            "box2 box2 "
+            "box1 box1"
+            "box3 box4";
+    }
 }
 
 /* Estilos específicos para pantallas grandes (por ejemplo, computadoras de escritorio) */
-@media only screen and (min-width: 1025px) {
+@media (min-width: 1025px) {
     
 }
