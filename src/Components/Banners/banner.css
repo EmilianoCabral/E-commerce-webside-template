@@ -12,16 +12,7 @@
     max-width: 100rem;
 }
 
-.button {
-    padding: 1rem;
-    border-radius: 12px;
-    width: 17rem;
-    font-size: 2rem;
-    background-color: rgb(0 0 0 / 0%);
-    color: white;
-    border: 1px solid white;
-    cursor: pointer;
-}
+
 
 .section_title {
     color: white;
