@@ -35,6 +35,7 @@
 
 .navbar_list {
     display: flex;
+    align-items: center;
     list-style: none;
     gap: 3rem;
     font-family: "Roboto", sans-serif;

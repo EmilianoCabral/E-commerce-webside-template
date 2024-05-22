@@ -25,6 +25,94 @@
 
 /*teléfonos móviles */
 @media (max-width: 624px) {
+    .browse_title {
+        font-family: "Robot",sans-serif;
+        padding-bottom: 2rem;
+    }
+    .items1{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        background-color: rgb(207, 207, 207);
+        border-radius: 1rem;
+        padding-top: 1.5rem;
+        padding-bottom: 1.5rem;
+    }
+    .items1 h2{
+        font-family: "Robot", sans-serif;
+        padding-top: 0.5rem;
+    }
+    .items2{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        background-color: rgb(207, 207, 207);
+        border-radius: 1rem;
+        padding-top: 1.5rem;
+        padding-bottom: 1.5rem;
+    }
+    .items2 h2{
+        font-family: "Robot", sans-serif;
+        padding-top: 0.5rem;
+    }
+    .items3{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        background-color: rgb(207, 207, 207);
+        border-radius: 1rem;
+        padding-top: 1.5rem;
+        padding-bottom: 1.5rem;
+    }
+    .items3 h2{
+        font-family: "Robot", sans-serif;
+        padding-top: 0.5rem;
+    }
+    .items4{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        background-color: rgb(207, 207, 207);
+        border-radius: 1rem;
+        padding-top: 1.5rem;
+        padding-bottom: 1.5rem;
+    }
+    .items4 h2 {
+        font-family: "Robot", sans-serif;
+        padding-top: 0.5rem;
+    }
+    .items5 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        background-color: rgb(207, 207, 207);
+        border-radius: 1rem;
+        padding-top: 1.5rem;
+        padding-bottom: 1.5rem;
+    }
+    .items5 h2 {
+        font-family: "Robot", sans-serif;
+        padding-top: 0.5rem;
+    }
+    .items6 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        background-color: rgb(207, 207, 207);
+        border-radius: 1rem;
+        padding-top: 1.5rem;
+        padding-bottom: 1.5rem;
+    }
+    .items6 h2{
+        font-family: "Robot", sans-serif;
+        padding-top: 0.5rem;
+    }
     .container_browser{
         position: relative;
         background-color: white;

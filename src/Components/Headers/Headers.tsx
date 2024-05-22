@@ -1,6 +1,8 @@
 import { Link } from 'react-router-dom'
 import './Header.css'
 import { Headersbutton } from './Headers.button'
+import { Shopcar } from '../../assets/icons/Shopcar'
+import { User } from '../../assets/icons/User'
 
 export const Headers = () => {
     return (
@@ -21,9 +23,9 @@ export const Headers = () => {
                             <li>About</li>
                             <li>Contacts Us</li>
                             <li>Blog</li>
-                            <li>Like</li>
-                            <li>Car</li>
-                            <li>Login</li>
+                            <li><Shopcar /></li>
+                            <li><User /></li>
+                            <li><link rel="icon" type="image/svg+xml" href="/vite.svg" /></li>
                         </ul>
                     </nav>
                 </section>
