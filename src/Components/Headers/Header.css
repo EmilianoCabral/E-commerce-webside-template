@@ -2,20 +2,23 @@
     width: 100%;
     margin-left: auto;
     margin-right: auto;
-    max-width: 70rem;
+    max-width: 82.5rem;
 }
 .navbar {
     display: flex;
+    justify-content: space-between;
     align-items: center;
-
     padding: 1rem;
-    
+    font-weight: 900;
 }
-
 .section_name {
     display: flex;
     gap: 3rem;
     align-items: center;
+}
+.section_name h2{
+    font-family:"Roboto", sans-serif;
+    font-weight: 900;
 }
 
 .search_input input {
@@ -34,6 +37,7 @@
     display: flex;
     list-style: none;
     gap: 3rem;
+    font-family: "Roboto", sans-serif;
 }
 
 .dropdown-toggle,
@@ -43,37 +47,6 @@
 
 
 /*------------------------------------------------queries-----------------------------------*/
-
-@media (max-width: 900px) {
-    .dropdown-toggle {
-        display: block;
-    }
-
-    .menu_exit {
-        display: block;
-    }
-
-    .section_navbar {
-        display: flex;
-        flex-direction: column;
-        align-items: end;
-        position: absolute;
-        opacity: 0px;
-        visibility: hidden;
-        top: 0px;
-        right: 0px;
-        background-color: black;
-        padding: 2rem;
-        bottom: 0px;
-        box-shadow: 0 0 0 100vmax rgb(0, 0, 0, .5);
-        color: white;
-    }
-    .navbar_list {
-        flex-direction: column;
-        align-items: end;
-    }
-}
-
 
 
 /*teléfonos móviles */
@@ -115,7 +88,42 @@
     }
 }
 
+@media (max-width: 900px) {
+    .dropdown-toggle {
+        display: block;
+    }
+
+    .menu_exit {
+        display: block;
+    }
+
+    .section_navbar {
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+        position: absolute;
+        opacity: 0px;
+        visibility: hidden;
+        top: 0px;
+        right: 0px;
+        background-color: black;
+        padding: 2rem;
+        bottom: 0px;
+        box-shadow: 0 0 0 100vmax rgb(0, 0, 0, .5);
+        color: white;
+    }
+    .navbar_list {
+        flex-direction: column;
+        align-items: end;
+    }
+}
+
 /* computadoras de escritorio */
-@media  (min-width: 1025px) {
-    /* Agrega aquí los estilos específicos para pantallas grandes */
+@media  (min-width: 1025px) and (max-width: 1440px)  {
+    .header_container{
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 70rem;
+    }
 }
