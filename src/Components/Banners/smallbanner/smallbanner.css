@@ -4,46 +4,9 @@
     grid-template-rows: repeat(2, 1fr);
     grid-template-columns: repeat(4, 1fr);
     grid-template-areas:
-        "box1 box1 box4 box4"
-        "box2 box3 box4 box4";
+        "box3 box3 box4 box4"
+        "box2 box1 box4 box4";
 }
-
-.box1 {
-    grid-area: box1;
-}
-
-.box2 {
-    grid-area: box2;
-    background-color: yellow;
-}
-
-.box3 {
-    grid-area: box3;
-    background-color: blueviolet;
-}
-
-.box4 {
-    grid-area: box4;
-    background-color: green;
-}
-
-
-/*movil */
-@media (min-width: 320px) and (max-width: 624px) {
-
-    .small_banner {
-        position: relative;
-        display: grid;
-        grid-template-rows: repeat(4, 1fr);
-        grid-template-columns: repeat(1, 1fr);
-        grid-template-areas:
-            "box1"
-            "box2"
-            "box3"
-            "box4";
-    }
-}
-
 /*Box 1*/
 .box1 {
     grid-area: box1;
@@ -100,31 +63,34 @@
     grid-area: box3;
     background-color: rgb(255, 255, 255);
     display: flex;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
     text-align: center;
-    flex-direction: column;
 }
-
+.box3_img {
+    width: 32rem;
+    position: relative;
+    left: -11rem;
+}
 .box3_title {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
-    font-size: 2rem;
-    padding-top: 1rem;
+    font-size: 4rem;
     padding-bottom: 1rem;
+    position: relative;
+    right: 7rem;
 }
-
 .box3_paragraph {
     font-family: "Roboto", sans-serif;
     font-size: 1rem;
     color: gray;
-    width: 90%; 
-    margin: 0 auto;
+    position: relative;
+    right: 5rem;
 }
 
 /*Box 4*/
 .box4 {
-
     grid-area: box4;
     background-color: rgb(216, 216, 216);
     display: flex;
@@ -135,23 +101,150 @@
     padding-bottom: 2.5rem;
     padding-top: 2.5rem;
 }
-
+.box4_img{
+    width: 39rem;
+}
 .box4_title {
     font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    font-size: 2rem;
+    font-weight: 500;
+    font-size: 4rem;
     padding-top: 1rem;
     padding-bottom: 1rem;
 }
-
+.box4_title strong{
+    font-weight: 300;
+}
 .box4_paragraph {
     font-family: "Roboto", sans-serif;
     font-size: 1rem;
-    color: gray;
+    color: #5c5c5c;
     padding-bottom: 1rem;
     width: 90%; 
     margin: 0 auto;
 }
+
+/*movil */
+@media (max-width: 624px) {
+    .small_banner {
+        position: relative;
+        display: grid;
+        grid-template-rows: repeat(4, 1fr);
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-areas:
+            "box1"
+            "box2"
+            "box3"
+            "box4";
+    }
+    /*Box 1*/
+    .box1 {
+        grid-area: box1;
+        background-color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        flex-direction: column;
+    }
+    
+    .box1_title {
+        font-family: "Roboto", sans-serif;
+        font-weight: 300;
+        font-size: 2rem;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+    
+    .box1_paragraph {
+        font-family: "Roboto", sans-serif;
+        font-size: 1rem;
+        color: gray;
+    }
+    
+    /*Box 2*/
+    .box2 {
+        grid-area: box2;
+        background-color: rgb(42, 42, 42);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        flex-direction: column;
+    }
+    
+    .box2_title {
+        font-family: "Roboto", sans-serif;
+        color: white;
+        font-weight: 300;
+        font-size: 2rem;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+    
+    .box2_paragraph {
+        font-family: "Roboto", sans-serif;
+        font-size: 1rem;
+        color: gray;
+    }
+    
+    /*Box 3*/
+    .box3 {
+        grid-area: box3;
+        background-color: rgb(255, 255, 255);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        flex-direction: column;
+    }
+    
+    .box3_title {
+        font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-size: 2rem;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+    
+    .box3_paragraph {
+        font-family: "Roboto", sans-serif;
+        font-size: 1rem;
+        color: gray;
+        width: 90%; 
+        margin: 0 auto;
+    }
+    
+    /*Box 4*/
+    .box4 {
+        grid-area: box4;
+        background-color: rgb(216, 216, 216);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        flex-direction: column;
+        padding-bottom: 2.5rem;
+        padding-top: 2.5rem;
+    }
+    
+    .box4_title {
+        font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-size: 2rem;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+    
+    .box4_paragraph {
+        font-family: "Roboto", sans-serif;
+        font-size: 1rem;
+        color: #5c5c5c;
+        padding-bottom: 1rem;
+        width: 90%; 
+        margin: 0 auto;
+    }
+}
+
 
 /* tablet */
 @media (min-width: 625px) and (max-width: 1024px) {
@@ -169,6 +262,55 @@
 }
 
 /*escritorio */
-@media (min-width: 1025px) {}
-
-@media (max-width:1440px) {}
+@media (min-width: 1025px) and (max-width:1440px) {
+    .box1 {
+        grid-area: box1;
+    }
+    
+    .box2 {
+        grid-area: box2;
+    }
+    /*Box 3*/
+    .box3 {
+        grid-area: box3;
+        background-color: rgb(255, 255, 255);
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .box3_img {
+        width: 26rem;
+        left: -9rem;
+        position: relative;
+    }
+    .box3_title {
+        font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-size: 3rem;
+        right: 6rem;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        position: relative;
+    }
+    .box3_paragraph {
+        font-family: "Roboto", sans-serif;
+        font-size: 1rem;
+        color: gray;
+        position: relative;
+        right: 6rem;
+    }
+    /*box 4*/
+    .box4 {
+        grid-area: box4;
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    .box4_title{
+        font-size: 4rem;
+    }
+    .box4_paragraph{
+        font-size: 1rem;
+    }
+}

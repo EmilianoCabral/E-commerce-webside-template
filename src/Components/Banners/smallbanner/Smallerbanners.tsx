@@ -16,7 +16,7 @@ export const Smallerbanners = () => {
                 </article>
                 <article className="box2">
                     <div>
-                        <img className="box2_img" src="https://placehold.co/192x200" alt="algo" />
+                        <img className="box2_img" src="./src/assets/Apple-Vision-Pro-glass (1).jpg" alt="algo" />
                     </div>
                     <div className="box2_text">
                         <h2 className="box2_title">Apple Vision <strong>Pro</strong></h2>
@@ -25,7 +25,7 @@ export const Smallerbanners = () => {
                 </article>
                 <article className="box3">
                     <div>
-                        <img className="box3_img" src="https://placehold.co/192x200" alt="algo" />
+                        <img className="box3_img" src="./src/assets/Ps5-Console (1).png" alt="play 5" />
                     </div>
                     <div className="box3_text">
                         <h2 className="box3_title">Playstation <strong>5</strong></h2>
@@ -34,7 +34,7 @@ export const Smallerbanners = () => {
                 </article>
                 <article className="box4">
                     <div>
-                        <img className="box4_img" src="https://placehold.co/192x200" alt="algo" />
+                        <img className="box4_img" src="./src/assets/Macbook-(1).png" alt="algo" />
                     </div>
                     <div className="box4_text">
                         <h2 className="box4_title"><strong>Macbook </strong> Air</h2>

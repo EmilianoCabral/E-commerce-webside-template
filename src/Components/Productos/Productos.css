@@ -11,7 +11,7 @@
 .products_items {
     display: grid;
     gap: 1rem;
-
+    font-family: "Roboto", sans-serif;
     grid-template-rows: repeat(2, 1fr);
     grid-template-columns: repeat(4, 1fr);
     grid-template-areas:
@@ -21,55 +21,52 @@
 
 .article1 {
     background-color: blue;
-    height: 432px;
     border-radius: 9px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
     justify-content: center;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+    background-color: rgb(195, 195, 195) ;
+}
+.article1 img{
+    width: 5rem;
 }
 
 .article2 {
     background-color: blue;
-    height: 432px;
     border-radius: 9px;
 }
 
 .article3 {
     background-color: blue;
-    height: 432px;
-    border-radius: 9px;
-    height: 432px;
     border-radius: 9px;
 }
 
 .article4 {
     background-color: blue;
-    height: 432px;
     border-radius: 9px;
 }
 
 .article5 {
     background-color: blue;
-    height: 432px;
     border-radius: 9px;
 }
 
 .article6 {
     background-color: blue;
-    height: 432px;
     border-radius: 9px;
 }
 
 .article7 {
     background-color: blue;
-    height: 432px;
     border-radius: 9px;
 }
 
 .article8 {
     background-color: blue;
-    height: 432px;
     border-radius: 9px;
 }
 
@@ -80,7 +77,6 @@
     .products_items {
         display: grid;
         gap: 1rem;
-    
         grid-template-rows: repeat(2, 1fr);
         grid-template-columns: repeat(2, 1fr);
         grid-template-areas:
@@ -92,7 +88,18 @@
     .products_container {
         width: 90%;
         margin: 0 auto;
-    
+    }
+    .article1 {
+        background-color: rgb(195, 195, 195);
+        border-radius: 9px;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+    .article1 img{
+        width: 4rem;
+    }
+    .article1 h3 {
+        font-size: 1rem;
     }
 }
 
@@ -101,7 +108,6 @@
     .products_items {
         display: grid;
         gap: 1rem;
-    
         grid-template-rows: repeat(2, 1fr);
         grid-template-columns: repeat(2, 1fr);
         grid-template-areas:

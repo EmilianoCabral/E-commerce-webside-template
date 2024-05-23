@@ -1,3 +1,4 @@
+import { Buttons1 } from '../buttons/Buttons'
 import './Productos.css'
 
 export const Productos = () => {
@@ -10,7 +11,7 @@ export const Productos = () => {
                 <div className="products_items">
                     <article className="article1">
                         <div>
-                            <img src="https://placehold.co/160x160" alt="" />
+                            <img src="./src/assets/iPhone-14-Pro-1.png" alt="" />
                         </div>
                         <div>
                             <h3>Apple iphone 14 pro Max 128GB</h3>
@@ -20,7 +21,7 @@ export const Productos = () => {
                             <p>$900</p>
                         </div>
                         <div>
-                            button
+                            <Buttons1 title="Buy Now" />
                         </div>
                     </article>
                     <article className="article2">

@@ -8,16 +8,20 @@ interface props {
 export const Buttons = (props: props) => {
     let { title } = props
     return (
-        <button className="button_banner">
+        <button className="buttons0">
             <Link to="/Pageproductos">{title}</Link>
         </button>
     )
 }
 
+export const Buttons1 = (props: props) => {
 
-export const Buttons1 = () => {
+    let { title } = props
+    
     return (
-        <div>Buttons1</div>
+        <button className="buttons1">
+            <Link to="/Pageproductos">{title}</Link>
+        </button>
     )
 }
 

@@ -1,4 +1,5 @@
-.button_banner {
+/*Button 1*/
+.buttons0 {
     padding: 1rem;
     border-radius: 12px;
     width: 17rem;
@@ -7,7 +8,23 @@
     border: 1px solid white;
     cursor: pointer;
 }
-.button_banner a{
+.buttons0 a{
     color: white;
     list-style: none;
+}
+
+/*Button 2*/
+
+.buttons1 {
+    padding: 1rem;
+    border-radius: 12px;
+    width: 9rem;
+    background-color: black;
+    cursor: pointer;
+}
+.buttons1 a{
+    color: white;
+    list-style: none;
+    font-size: 1rem;
+    font-family: "Roboto", sans-serif;
 }
