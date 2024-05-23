@@ -1,7 +1,25 @@
+import { useEffect, useState } from 'react'
 import { Buttons1 } from '../buttons/Buttons'
+import { askfordata } from '../../data/helpers/askfordata';
+
 import './Productos.css'
 
-export const Productos = () => {
+interface productsprops {
+    id: number
+    name: string
+}
+
+export const Product = () => {
+
+    const [product, setProduct] = useState ([]);
+
+    useEffect(() => {
+        askfordata()
+        .then((res) => {
+            setProduct(res);
+        })
+    }, [])
+
     return (
         <section className="section_products">
             <div className="products_container">

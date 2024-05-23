@@ -2,82 +2,82 @@
     "product": [
         {
             "id": 1,
-            "categoria": "celulares",
-            "nombre": "Samsung Galaxy S21",
-            "descripcion": "Celular de alta gama con pantalla AMOLED de 6.2 pulgadas y cámara triple de 64MP.",
-            "precio": 799.99,
+            "category": "cellphones",
+            "name": "Samsung Galaxy S21",
+            "description": "High-end phone with 6.2-inch AMOLED display and 64MP triple camera.",
+            "price": 799.99,
             "img": "https://example.com/img/samsung-galaxy-s21.jpg"
         },
         {
             "id": 2,
-            "categoria": "celulares",
-            "nombre": "iPhone 13 Pro",
-            "descripcion": "Celular de alta gama con pantalla Super Retina XDR de 6.1 pulgadas y cámara triple de 12MP.",
-            "precio": 999.99,
+            "category": "cellphones",
+            "name": "iPhone 13 Pro",
+            "description": "High-end phone with 6.1-inch Super Retina XDR display and 12MP triple camera.",
+            "price": 999.99,
             "img": "https://example.com/img/iphone-13-pro.jpg"
         },
         {
             "id": 3,
-            "categoria": "celulares",
-            "nombre": "Google Pixel 6",
-            "descripcion": "Celular con pantalla AMOLED de 6.4 pulgadas y cámara dual de 50MP.",
-            "precio": 599.99,
+            "category": "cellphones",
+            "name": "Google Pixel 6",
+            "description": "Phone with 6.4-inch AMOLED display and 50MP dual camera.",
+            "price": 599.99,
             "img": "https://example.com/img/google-pixel-6.jpg"
         },
         {
             "id": 4,
-            "categoria": "celulares",
-            "nombre": "OnePlus 9",
-            "descripcion": "Celular con pantalla Fluid AMOLED de 6.55 pulgadas y cámara triple de 48MP.",
-            "precio": 729.99,
+            "category": "cellphones",
+            "name": "OnePlus 9",
+            "description": "Phone with 6.55-inch Fluid AMOLED display and 48MP triple camera.",
+            "price": 729.99,
             "img": "https://example.com/img/oneplus-9.jpg"
         },
         {
             "id": 5,
-            "categoria": "camaras",
-            "nombre": "Canon EOS R5",
-            "descripcion": "Cámara sin espejo con sensor full-frame de 45MP y grabación de video 8K.",
-            "precio": 3899.99,
+            "category": "cameras",
+            "name": "Canon EOS R5",
+            "description": "Mirrorless camera with 45MP full-frame sensor and 8K video recording.",
+            "price": 3899.99,
             "img": "https://example.com/img/canon-eos-r5.jpg"
         },
         {
             "id": 6,
-            "categoria": "camaras",
-            "nombre": "Sony Alpha a7 III",
-            "descripcion": "Cámara sin espejo con sensor full-frame de 24.2MP y estabilización de imagen.",
-            "precio": 1999.99,
+            "category": "cameras",
+            "name": "Sony Alpha a7 III",
+            "description": "Mirrorless camera with 24.2MP full-frame sensor and image stabilization.",
+            "price": 1999.99,
             "img": "https://example.com/img/sony-alpha-a7-iii.jpg"
         },
         {
             "id": 7,
-            "categoria": "camaras",
-            "nombre": "Nikon Z6 II",
-            "descripcion": "Cámara sin espejo con sensor full-frame de 24.5MP y grabación de video 4K.",
-            "precio": 1996.95,
+            "category": "cameras",
+            "name": "Nikon Z6 II",
+            "description": "Mirrorless camera with 24.5MP full-frame sensor and 4K video recording.",
+            "price": 1996.95,
             "img": "https://example.com/img/nikon-z6-ii.jpg"
         },
         {
             "id": 8,
-            "categoria": "gaming",
-            "nombre": "PlayStation 5",
-            "descripcion": "Consola de juegos de próxima generación con soporte para juegos 4K y ray tracing.",
-            "precio": 499.99,
+            "category": "gaming",
+            "name": "PlayStation 5",
+            "description": "Next-generation gaming console with support for 4K games and ray tracing.",
+            "price": 499.99,
             "img": "./src/assets/Ps5-Console (1).png"
         },
         {
             "id": 9,
-            "categoria": "gaming",
-            "nombre": "Xbox Series X",
-            "descripcion": "Consola de juegos de próxima generación con soporte para juegos 4K y 120 FPS.",
-            "precio": 499.99,
+            "category": "gaming",
+            "name": "Xbox Series X",
+            "description": "Next-generation gaming console with support for 4K games and 120 FPS.",
+            "price": 499.99,
             "img": "https://example.com/img/xbox-series-x.jpg"
         },
         {
             "id": 10,
-            "categoria": "gaming",
-            "nombre": "Nintendo Switch",
-            "descripcion": "Consola de juegos híbrida con pantalla de 6.2 pulgadas y controladores Joy-Con.",
-            "precio": 299.99,
+            "category": "gaming",
+            "name": "Nintendo Switch",
+            "description": "Hybrid gaming console with 6.2-inch display and Joy-Con controllers.",
+            "price": 299.99,
             "img": "https://example.com/img/nintendo-switch.jpg"
         }
     ]

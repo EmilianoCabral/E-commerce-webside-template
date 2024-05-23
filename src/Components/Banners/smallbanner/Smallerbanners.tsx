@@ -7,7 +7,7 @@ export const Smallerbanners = () => {
             <div className="small_banner">
                 <article className="box1">
                     <div>
-                        <img className="box1_img" src="https://placehold.co/192x200" alt="algo" />
+                        <img className="box1_img" src="./src/assets/Apple-Airpods-Max.Webp" alt="algo" />
                     </div>
                     <div className="box1_text">
                         <h2 className="box1_title">Apple AirPods <strong>MAX</strong></h2>
@@ -16,7 +16,7 @@ export const Smallerbanners = () => {
                 </article>
                 <article className="box2">
                     <div>
-                        <img className="box2_img" src="./src/assets/Apple-Vision-Pro-glass (1).jpg" alt="algo" />
+                        <img className="box2_img" src="./src/assets/Apple-Vision-Pro-(1).png" alt="algo" />
                     </div>
                     <div className="box2_text">
                         <h2 className="box2_title">Apple Vision <strong>Pro</strong></h2>
