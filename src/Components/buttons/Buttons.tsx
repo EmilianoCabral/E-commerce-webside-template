@@ -9,7 +9,7 @@ export const Buttons = (props: props) => {
     let { title } = props
     return (
         <button className="buttons0">
-            <Link to="/Pageproductos">{title}</Link>
+            <Link to="/Detailproduct">{title}</Link>
         </button>
     )
 }
@@ -20,7 +20,7 @@ export const Buttons1 = (props: props) => {
     
     return (
         <button className="buttons1">
-            <Link to="/Pageproductos">{title}</Link>
+            <Link to="/Detailproduct">{title}</Link>
         </button>
     )
 }
