@@ -24,4 +24,3 @@ export const Buttons1 = (props: props) => {
         </button>
     )
 }
-

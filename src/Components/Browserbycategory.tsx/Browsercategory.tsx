@@ -14,7 +14,7 @@ export const Browsercategory = () => {
                 <div className="browse_title">
                     <h2>Browse By category</h2>
                 </div>
-                <article className="browse_items">
+                <section className="browse_items">
                     <article className="items1">
                         <Phone />
                         <h2>Phone</h2>
@@ -39,7 +39,7 @@ export const Browsercategory = () => {
                         <Gamepad />
                         <h2>Gaming</h2>
                     </article>
-                </article>
+                </section>
             </div>
         </section>
     )
