@@ -9,7 +9,8 @@ export const Headers = () => {
         <header className="header_container">
             <div className="navbar">
                 <section className="section_name">
-                    <div>
+                    <div className="cyber_title">
+                        <img src="./src/assets/icons/icons8-flecha-64.png" alt="" />
                         <h2>Cyber</h2>
                     </div>
                     <div className="search_input">
@@ -19,13 +20,14 @@ export const Headers = () => {
                 <section className="section_navbar">
                     <nav>
                         <ul className="navbar_list">
-                            <li><Link to="/">Home</Link></li>
+                            <li>
+                                <Link to="/">Home</Link>
+                            </li>
                             <li>About</li>
                             <li>Contacts Us</li>
                             <li>Blog</li>
                             <li><Shopcar /></li>
                             <li><User /></li>
-                            <li><link rel="icon" type="image/svg+xml" href="/vite.svg" /></li>
                         </ul>
                     </nav>
                 </section>

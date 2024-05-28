@@ -1,7 +1,6 @@
 import { useEffect, useState } from 'react'
 import { Buttons1 } from '../buttons/Buttons'
 import { askfordata } from '../../data/helpers/askfordata';
-
 import './Productos.css'
 
 interface productsprops {
@@ -13,10 +12,10 @@ export const Product = () => {
 
     const [product, setProduct] = useState ([]);
 
-    useEffect(() => {
+    useEffect(() =>  {
         askfordata()
-        .then((res) => {
-            setProduct(res);
+        .then((data) => {
+            setProduct(data);
         })
     }, [])
 

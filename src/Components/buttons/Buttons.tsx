@@ -6,7 +6,9 @@ interface props {
 }
 
 export const Buttons = (props: props) => {
+
     let { title } = props
+    
     return (
         <button className="buttons0">
             <Link to="/Detailproduct">{title}</Link>
