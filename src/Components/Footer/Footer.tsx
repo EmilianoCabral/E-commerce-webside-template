@@ -12,8 +12,9 @@ export const Footer = () => {
                             </h3>
                         </div>
                         <div>
-                            <p>We are a residential interior design firm located in Portland. Our <br />
-                                boutique-studio offers more than</p>
+                            <p>
+                                We are a residential interior design firm located in Portland. Our boutique-studio offers more than
+                            </p>
                         </div>
                     </section>
                     <section>

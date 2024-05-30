@@ -24,10 +24,39 @@
 }
 .social_section{
     margin-top: 1.5rem;
-    gap: 2rem;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
 }
 
-@media (max-width:1440px) {
+
+/*Queries*/
+/*teléfonos móviles */
+@media (max-width: 624px) {
+    .container_footer{
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .props_footer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 1rem;
+        font-family: 'Roboto';
+    }
+    .social_section{
+        display: flex;
+        justify-content: center;
+    }
+}
+
+/* tabletas */
+@media (min-width: 625px) and (max-width: 1024px){
+
+}
+/* computadoras de escritorio */
+@media  (min-width: 1025px) and (max-width: 1440px){
     .container_footer{
         max-width: 70rem;
     }

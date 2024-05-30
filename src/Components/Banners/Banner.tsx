@@ -12,7 +12,7 @@ export const Banner = () => {
                     <Buttons title={"Shop now"} />
                 </div>
                 <div className="section_banner">
-                    <img className="banner_img" src="./src/assets/iPhone-14-Pro-1.png" alt="iphone 14 pro" />
+                    <img className="slide-left" src="./src/assets/iPhone-14-Pro-1.png" alt="iphone 14 pro" />
                 </div>
             </article>
         </section>

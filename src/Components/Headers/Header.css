@@ -62,7 +62,6 @@
     .navbar {
         display: flex;
         align-items: center;
-        width: 90%; 
         margin: 0 auto;
         gap: 1rem;
     }
@@ -100,11 +99,9 @@
     .dropdown-toggle {
         display: block;
     }
-
     .menu_exit {
         display: block;
     }
-
     .section_navbar {
         display: flex;
         flex-direction: column;
