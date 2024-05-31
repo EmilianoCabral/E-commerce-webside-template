@@ -14,28 +14,28 @@ export const Browsercategory = () => {
                 <div className="browse_title">
                     <h2>Browse By category</h2>
                 </div>
-                <section className="browse_items">
-                    <article className="items1">
+                <section className="section_items">
+                    <article className="items_browser">
                         <Phone />
                         <h2>Phone</h2>
                     </article>
-                    <article className="items2">
+                    <article className="items_browser">
                         <Watch />
                         <h2>Smartwatch</h2>
                     </article>
-                    <article className="items3">
+                    <article className="items_browser">
                         <Camera />
                         <h2>Cameras</h2>
                     </article>
-                    <article className="items4">
+                    <article className="items_browser">
                         <Headphone />
                         <h2>Headphone</h2>
                     </article>
-                    <article className="items5">
+                    <article className="items_browser">
                         <Computer />
                         <h2>Computer</h2>
                     </article>
-                    <article className="items6">
+                    <article className="items_browser">
                         <Gamepad />
                         <h2>Gaming</h2>
                     </article>

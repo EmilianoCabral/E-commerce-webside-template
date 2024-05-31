@@ -88,7 +88,7 @@
         padding-bottom: 1rem;
     }
 
-    .banner_img {
+    .slide-left {
         position: relative;
         padding-top: 3rem;
         width: 100%;
@@ -106,15 +106,13 @@
         padding-bottom: 100%;
         padding-top: 6rem;
     }
-
     .section_title {
         color: white;
         font-size: 5rem;
         font-family: monospace;
         padding-bottom: 3rem;
     }
-
-    .banner_img {
+    .slide-left {
         height: auto;
         padding-top: 5rem;
     }
@@ -143,7 +141,7 @@
         padding-top: 1.5rem;
     }
 
-    .banner_img {
+    .slide-left {
         height: auto;
         padding-top: 20rem;
         width: 30rem;

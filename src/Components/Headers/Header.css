@@ -26,7 +26,6 @@
     font-weight: 900;
     font-size: 2rem;
 }
-
 .search_input input {
     width: 23rem;
     height: 3rem;
@@ -42,12 +41,18 @@
     gap: 3rem;
     font-family: "Roboto", sans-serif;
 }
+.item_list {
+    font-size: 1.5rem;
+}
+.item_list:hover {
+    cursor: pointer;
+    transform: translateY(-3%);
+    border-bottom: 1px solid black;
+}
 .navbar_list a {
     text-decoration: none;
     color: black;
-    cursor: pointer;
 }
-
 .dropdown-toggle,
 .menu_exit {
     display: none;
@@ -82,7 +87,7 @@
 /* tabletas */
 @media (min-width: 625px) and (max-width: 1024px) {
     .header_container{
-        width: 80%;
+        width: 90%;
         margin: 0 auto;
     }
     .navbar {
