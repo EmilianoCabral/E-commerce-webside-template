@@ -7,6 +7,19 @@
 .props_footer{
     display: flex;
     justify-content: space-between;
+    font-family: "Roboto",sans-serif;
+}
+.footer_title {
+    font-size: 2rem;
+    padding-bottom: 1rem;
+}
+.footer_servi {
+    font-size: 1.5rem;
+    padding-bottom: 1rem;
+}
+.footer_assis {
+    font-size: 1.5rem;
+    padding-bottom: 1rem;
 }
 .footer{
     background-color: black;
@@ -14,8 +27,12 @@
     padding-top: 3rem;
     padding-bottom: 3rem;
 }
-.navbar_nav{
+.footer_nav{
     list-style: none;
+}
+.footer_li {
+    padding-bottom: 1rem;
+    cursor: pointer;
 }
 .social_section ul{
     display: flex;

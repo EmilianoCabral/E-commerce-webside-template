@@ -1,20 +1,47 @@
 .big_banner {
     margin-top: 5rem;
 }
-
 .banner_items {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: "Roboto",sans-serif;
 }
-
-.product_item {
+.product_item1 {
     width: 100%;
     height: 640px;
-    background-color: brown;
-
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
+.product_item2 {
+    width: 100%;
+    height: 640px;
+    background-color: #e9e9e9;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.product_item3 {
+    width: 100%;
+    height: 640px;
+    background-color: #bababa;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.product_item4 {
+    width: 100%;
+    height: 640px;
+    background-color: #2a2a2a;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+/*------------------------------------móviles------------------------------------------- */
 
-
-/*móviles */
 @media (max-width: 624px) {
     .banner_items {
         display: flex;
@@ -22,7 +49,8 @@
     }
 }
 
-/* tabletas */
+/* ---------------------------------------tabletas---------------------------------------------------*/
+
 @media (min-width: 625px) and (max-width: 1024px) {
     .banner_items {
         display: flex;
@@ -30,7 +58,8 @@
     }
 }
 
-/*computadoras de escritorio */
+/*-------------------------------------------computadoras de escritorio--------------------------------------- */
+
 @media only screen and (min-width: 1025px) {
     /* Agrega aquí los estilos específicos para pantallas grandes */
 }

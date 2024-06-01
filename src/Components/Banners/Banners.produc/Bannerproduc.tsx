@@ -1,3 +1,4 @@
+import { Buttons } from '../../buttons/Buttons'
 import './bannerproduc.css'
 
 export const Bannerproduc = () => {
@@ -5,9 +6,9 @@ export const Bannerproduc = () => {
         <section className="big_banner">
             <div className="banner_product">
                 <article className="banner_items">
-                    <div className="product_item">
+                    <div className="product_item1">
                         <div>
-                            <img src="https://placehold.co/360x360" alt="..." />
+                            <img src="https://placehold.co/260x260" alt="..." />
                         </div>
                         <div>
                             <h2>Popular product</h2>
@@ -16,37 +17,46 @@ export const Bannerproduc = () => {
                                 Retina display, incredible performance,<br />
                                 multitasking and ease of use.
                                 </p>
-                            <button>shop now</button>
+                                <Buttons title="Shop now"/>
                         </div>
                     </div>
-                    <div className="product_item">
+                    <div className="product_item2">
                         <div>
-                            <img src="https://placehold.co/360x360" alt="..." />
+                            <img src="https://placehold.co/260x260" alt="..." />
                         </div>
                         <div>
-                            <h2>qwerqwer</h2>
-                            <p>qwer</p>
-                            <button>shop now</button>
-                        </div>
-                    </div>
-                    <div className="product_item">
-                        <div>
-                            <img src="https://placehold.co/360x360" alt="..." />
-                        </div>
-                        <div>
-                            <h2>qwerqwer</h2>
-                            <p>qwer</p>
-                            <button>shop now</button>
+                            <h2>Ipad Pro</h2>
+                            <p>iPad combines a magnificent 10.2-inch <br /> 
+                            Retina display, incredible performance, <br /> 
+                            multitasking and ease of use.
+                            </p>
+                            <Buttons title="Shop now"/>
                         </div>
                     </div>
-                    <div className="product_item">
+                    <div className="product_item3">
                         <div>
-                            <img src="https://placehold.co/360x360" alt="..." />
+                            <img src="https://placehold.co/260x260" alt="..." />
                         </div>
                         <div>
-                            <h2>qwerqwer</h2>
-                            <p>qwer</p>
-                            <button>shop now</button>
+                            <h2>Samsung galaxy</h2>
+                            <p>iPad combines a magnificent 10.2-inch <br /> 
+                            Retina display, incredible performance, <br /> 
+                            multitasking and ease of use.
+                            </p>
+                            <Buttons title="Shop now"/>
+                        </div>
+                    </div>
+                    <div className="product_item4">
+                        <div>
+                            <img src="https://placehold.co/260x260" alt="..." />
+                        </div>
+                        <div>
+                            <h2>Macbook Pro</h2>
+                            <p>iPad combines a magnificent 10.2-inch <br /> 
+                            Retina display, incredible performance, <br /> 
+                            multitasking and ease of use.
+                            </p>
+                            <Buttons title="Shop now"/>
                         </div>
                     </div>
                 </article>

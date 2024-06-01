@@ -23,7 +23,7 @@ export const Product = () => {
         <section className="section_products">
             <div className="products_container">
                 <div>
-                    <h2>title</h2>
+                    <h2>New Arrival</h2>
                 </div>
                 <div className="products_items">
                     <article className="article1">

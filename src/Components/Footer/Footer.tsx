@@ -5,49 +5,50 @@ export const Footer = () => {
         <footer className="footer">
             <div className="container_footer">
                 <div className="props_footer">
-                    <section>
+                    <section className="footer_text">
                         <div>
-                            <h3>
+                            <h3 className="footer_title">
                                 Cyber
                             </h3>
                         </div>
-                        <div>
+                        <div className="footer_paragraph">
                             <p>
-                                We are a residential interior design firm located in Portland. Our boutique-studio offers more than
+                                We are a residential interior design firm located in <br />
+                                Portland. Our boutique-studio offers more than
                             </p>
                         </div>
                     </section>
                     <section>
                         <div>
-                            <h3>
+                            <h3 className="footer_servi">
                                 Services
                             </h3>
                         </div>
-                        <nav>
-                            <ul className="navbar_nav">
-                                <li>Bonus program</li>
-                                <li>Gift cards</li>
-                                <li>Credit and payment</li>
-                                <li>Service contracts</li>
-                                <li>Non-cash account</li>
-                                <li>Payment</li>
+                        <nav className="footer_list">
+                            <ul className="footer_nav">
+                                <li className="footer_li">Bonus program</li>
+                                <li className="footer_li">Gift cards</li>
+                                <li className="footer_li">Credit and payment</li>
+                                <li className="footer_li">Service contracts</li>
+                                <li className="footer_li">Non-cash account</li>
+                                <li className="footer_li">Payment</li>
                             </ul>
                         </nav>
                     </section>
                     <section>
                         <div>
-                            <h3>
+                            <h3 className="footer_assis">
                                 Assistance to the buyer
                             </h3>
                         </div>
-                        <nav>
-                            <ul className="navbar_nav">
-                                <li>Find and order</li>
-                                <li>Terms of delivery</li>
-                                <li>Exchange and return of goods</li>
-                                <li>Guarantee</li>
-                                <li>Frequently asked questions</li>
-                                <li>Terms of use of the site</li>
+                        <nav className="footer_list">
+                            <ul className="footer_nav">
+                                <li className="footer_li">Find and order</li>
+                                <li className="footer_li">Terms of delivery</li>
+                                <li className="footer_li">Exchange and return of goods</li>
+                                <li className="footer_li">Guarantee</li>
+                                <li className="footer_li">Frequently asked questions</li>
+                                <li className="footer_li">Terms of use of the site</li>
                             </ul>
                         </nav>
                     </section>
