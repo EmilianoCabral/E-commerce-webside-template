@@ -1,6 +1,7 @@
 import { Buttons1 } from '../../Components/buttons/Buttons'
-import { Categorycard } from '../../Components/cards/Categorycard'
+import { Cameracard, Camerafront, Cardbatery, Categorycard, Cpucard } from '../../Components/cards/Categorycard'
 import { Tabs } from '../../Components/tabs/Tabs'
+import { Cpuicons } from '../../assets/icons/Cpuicons'
 import './detailproduct.css'
 
 export const Detailproduct = () => {
@@ -28,8 +29,19 @@ export const Detailproduct = () => {
                                     <p className="detail_price">$1399</p>
                                     <p>select colors</p>
                                     <input type="color" name="color" id="color" />
-                                    <Tabs />
-                                    <Categorycard />
+                                    <div className="flex_tabs">
+                                        <Tabs />
+                                        <Tabs />
+                                        <Tabs />
+                                    </div>
+                                    <div className="category_card">
+                                        <Categorycard />
+                                        <Cpucard />
+                                        <Cpucard />
+                                        <Cameracard />
+                                        <Camerafront />
+                                        <Cardbatery  />
+                                    </div>
                                     <p className="detail_info">
                                         Enhanced capabilities thanks toan enlarged display of 6.7 inchesand work without rechargingthroughout the day.
                                         Incredible photosas in weak, yesand in bright lightusing the new systemwith two cameras more...

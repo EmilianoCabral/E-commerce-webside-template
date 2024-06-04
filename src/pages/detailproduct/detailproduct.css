@@ -17,11 +17,21 @@
     padding-bottom: 1rem;
 }
 .detail_info {
-    padding-top: 1rem;
+    padding-top: 2rem;
     font-family: 'Roboto';
     font-size: 1.5rem;
     color: rgb(165 165 165);
     padding-bottom: 2rem;
+}
+.flex_tabs{
+    display: flex;
+    gap: 1rem;
+    padding: 2rem 0 2rem 0;
+}
+.category_card {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
 }
 .article_detail{
     display: flex;

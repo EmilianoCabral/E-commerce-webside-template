@@ -1,0 +1,12 @@
+.card_phone {
+    display: flex;
+    align-items: center;
+    background-color: rgb(241 241 241);
+    width: 10.5rem;
+    border-radius: 10px;
+    padding: 0.5rem 0 0.5rem 0;
+    justify-content: center;
+}
+.card_phone h4 {
+    color: #787878;
+}
