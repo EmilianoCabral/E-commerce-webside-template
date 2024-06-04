@@ -1,3 +1,4 @@
+import { Buttons1 } from '../../Components/buttons/Buttons'
 import { Categorycard } from '../../Components/cards/Categorycard'
 import { Tabs } from '../../Components/tabs/Tabs'
 import './detailproduct.css'
@@ -19,21 +20,26 @@ export const Detailproduct = () => {
                     </picture>
                     <div className="detail_product">
                         <header>
-                            <h2>Apple iPhone 14 Pro Max </h2>
+                            <h2 className="detail_title">Apple iPhone 14 Pro Max </h2>
                         </header>
                         <main>
                             <section>
-                                <h3>
-                                    <p>$1399</p>
+                                <div>
+                                    <p className="detail_price">$1399</p>
                                     <p>select colors</p>
                                     <input type="color" name="color" id="color" />
                                     <Tabs />
                                     <Categorycard />
-                                    <p>
+                                    <p className="detail_info">
                                         Enhanced capabilities thanks toan enlarged display of 6.7 inchesand work without rechargingthroughout the day.
                                         Incredible photosas in weak, yesand in bright lightusing the new systemwith two cameras more...
                                     </p>
-                                </h3>
+                                    <div>
+                                        <Buttons1 title="Add to Wishlist" />
+                                        <Buttons1 title="Add to Card" />
+                                    </div>
+                                    
+                                </div>
                             </section>
                         </main>
                     </div>

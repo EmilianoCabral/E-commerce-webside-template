@@ -6,15 +6,15 @@
             "name": "Samsung Galaxy S21",
             "description": "High-end phone with 6.2-inch AMOLED display and 64MP triple camera.",
             "price": 799.99,
-            "img": "https://example.com/img/samsung-galaxy-s21.jpg"
+            "img": "./src/assets/191559-800-auto.webp"
         },
         {
             "id": 2,
             "category": "cellphones",
-            "name": "iPhone 13 Pro",
+            "name": "iPhone 14 Pro",
             "description": "High-end phone with 6.1-inch Super Retina XDR display and 12MP triple camera.",
             "price": 999.99,
-            "img": "https://example.com/img/iphone-13-pro.jpg"
+            "img": "./src/assets/3114-3.webp"
         },
         {
             "id": 3,
@@ -22,7 +22,7 @@
             "name": "Google Pixel 6",
             "description": "Phone with 6.4-inch AMOLED display and 50MP dual camera.",
             "price": 599.99,
-            "img": "https://example.com/img/google-pixel-6.jpg"
+            "img": "./src/assets/41ok+oTQnrL.webp"
         },
         {
             "id": 4,

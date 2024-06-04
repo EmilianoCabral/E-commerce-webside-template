@@ -7,6 +7,22 @@
     padding-bottom: 7rem;
     border-top: 1px solid black;
 }
+.detail_title {
+    font-family: 'Roboto';
+    font-size: 4rem;
+}
+.detail_price {
+    font-size: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.detail_info {
+    padding-top: 1rem;
+    font-family: 'Roboto';
+    font-size: 1.5rem;
+    color: rgb(165 165 165);
+    padding-bottom: 2rem;
+}
 .article_detail{
     display: flex;
 }

@@ -1,9 +1,10 @@
 import data from "../data.json"
+import { ProductsProps } from "../../Components/types";
 
-export const askfordata = () => {
+export const askfordata = (): Promise<ProductsProps[]> => {
     return new Promise((resolve, reject) => {
         setTimeout(() => {
-            resolve(data)
+            resolve(data.product)
         }, 500);
     })
 }
