@@ -7,9 +7,48 @@
     padding-bottom: 7rem;
     border-top: 1px solid black;
 }
+.color_black {
+    background-color: black;
+}
+.color_board {
+    background-color: blueviolet;
+}
+.color_red {
+    background-color: red;
+}
+.color_yellow {
+    background-color: yellow;
+}
+.color_white {
+    background-color: rgb(193, 193, 193);
+}
+.color_container {
+    margin-top: 1rem;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+.color_container h4 {
+    font-size: 1.5rem;
+    font-family: "Roboto",sans-serif;
+    font-weight: 400;
+}
+.color_grup {
+    display: flex;
+    gap: 1rem;
+}
+.color {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    cursor: pointer;
+
+
+}
 .detail_title {
     font-family: 'Roboto';
     font-size: 4rem;
+    
 }
 .detail_price {
     font-size: 2rem;

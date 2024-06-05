@@ -1,0 +1,33 @@
+.label {
+    padding-right: 10px;
+    font-size: 1rem;
+}
+.file {
+    width: 50rem;
+}
+.review_content {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 82.5rem;
+    padding-top: 5.5rem;
+    padding-bottom: 7rem;
+}
+.review_flex{
+    display: flex;
+}
+.content_rating {
+    padding: 2rem;
+    text-align: center;
+}
+.over_cont {
+    padding-right: 60px;
+}
+.title_rating {
+    font-size: 4rem;
+}
+.text_rating {
+    font-family: 'Roboto';
+    color: #8d8d8d;
+    padding: 1rem 0 1rem 0;
+}

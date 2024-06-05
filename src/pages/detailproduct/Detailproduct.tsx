@@ -1,7 +1,7 @@
 import { Buttons1 } from '../../Components/buttons/Buttons'
 import { Cameracard, Camerafront, Cardbatery, Categorycard, Cpucard } from '../../Components/cards/Categorycard'
 import { Tabs } from '../../Components/tabs/Tabs'
-import { Cpuicons } from '../../assets/icons/Cpuicons'
+import { Reviews } from '../reviews/Reviews'
 import './detailproduct.css'
 
 export const Detailproduct = () => {
@@ -27,8 +27,16 @@ export const Detailproduct = () => {
                             <section>
                                 <div>
                                     <p className="detail_price">$1399</p>
-                                    <p>select colors</p>
-                                    <input type="color" name="color" id="color" />
+                                    <div className="color_container">
+                                        <h4>select colors:</h4>
+                                        <div className="color_grup">
+                                            <div className="color color_black"></div>
+                                            <div className="color color_board"></div>
+                                            <div className="color color_red"></div>
+                                            <div className="color color_yellow"></div>
+                                            <div className="color color_white"></div>
+                                        </div>
+                                    </div>
                                     <div className="flex_tabs">
                                         <Tabs />
                                         <Tabs />
@@ -121,9 +129,7 @@ export const Detailproduct = () => {
                     </div>
                 </div>
             </section>
-            <article>
-                reviews
-            </article>
+            <Reviews />
         </section>
     )
 }
