@@ -6,7 +6,7 @@ export const Pageproductos = () => {
         <section className="page_product">
             <div className="page_container">
                 <article className="sidebar">
-                    <div>
+                    <div >
                         <button>Brand</button>
                     </div>
                 </article>

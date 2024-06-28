@@ -8,7 +8,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem;
+    padding: 1rem 0rem 1rem 0rem;
     font-weight: 900;
 }
 .section_name {
@@ -35,18 +35,18 @@
     padding: 1rem;
 }
 .navbar_list {
+    cursor: pointer;
     display: flex;
     align-items: center;
     list-style: none;
     gap: 3rem;
     font-family: "Roboto", sans-serif;
 }
-.item_list {
+.itemlist {
     font-size: 1.5rem;
+    padding: 5px;
 }
-.item_list:hover {
-    cursor: pointer;
-    transform: translateY(-3%);
+.itemlist:hover {
     border-bottom: 1px solid black;
 }
 .navbar_list a {
@@ -62,7 +62,7 @@
 /*------------------------------------------------queries-----------------------------------*/
 
 
-/*teléfonos móviles */
+/*------------------------------------- móviles */
 @media (max-width: 624px) {
     .navbar {
         display: flex;
@@ -130,6 +130,9 @@
 
 /* computadoras de escritorio */
 @media  (min-width: 1025px) and (max-width: 1440px)  {
+    .search_input input {
+        width: 18rem;
+    }
     .header_container{
         width: 100%;
         margin-left: auto;

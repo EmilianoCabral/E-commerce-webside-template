@@ -7,7 +7,7 @@ export const Discountproduc = () => {
                 <div className="discount_title">
                     <h2>Discounts up to -50%</h2>
                 </div>
-                <div className="discont_item">
+                <div className="discount_item">
                     <article className="item_1">
                         <div><h2>name product</h2></div>
                         <div></div>

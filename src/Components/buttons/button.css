@@ -29,3 +29,19 @@
     font-size: 1rem;
     font-family: "Roboto", sans-serif;
 }
+
+/*Button 3*/
+
+.buttons3 {
+    padding: 1.5rem 0rem 1.5rem 0rem;
+    border-radius: 12px;
+    width: 17rem;
+    background-color: black;
+    cursor: pointer;
+}
+.buttons3 a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    font-family: "Roboto", sans-serif;
+}

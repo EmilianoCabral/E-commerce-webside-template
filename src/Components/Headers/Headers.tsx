@@ -20,22 +20,22 @@ export const Headers = () => {
                 <section className="section_navbar">
                     <nav>
                         <ul className="navbar_list">
-                            <li className="item_list">
+                            <li className="itemlist">
                                 <Link to="/">Home</Link>
                             </li>
-                            <li className="item_list">
+                            <li className="itemlist">
                                 About
                             </li>
-                            <li className="item_list">
+                            <li className="itemlist">
                                 Contacts Us
                             </li>
-                            <li className="item_list">
+                            <li className="itemlist">
                                 Blog
                             </li>
-                            <li className="item_list">
+                            <li className="itemlist">
                                 <Shopcar />
                             </li>
-                            <li className="item_list">
+                            <li className="itemlist">
                                 <User />
                             </li>
                         </ul>

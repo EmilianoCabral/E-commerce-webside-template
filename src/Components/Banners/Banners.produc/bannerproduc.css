@@ -45,7 +45,6 @@
 @media (max-width: 624px) {
     .banner_items {
         display: flex;
-        flex-direction: column;
     }
 }
 

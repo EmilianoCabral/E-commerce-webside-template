@@ -52,7 +52,7 @@
 
 .section_title h1 {
     font-size: 7rem;
-    color: hsl(0deg 0.78% 66.14%);
+    color: hsl(0deg 0% 71.36%);
     font-weight: 100;
     font-family: "Roboto", sans-serif;
 }
@@ -70,24 +70,27 @@
 
 /*queries*/
 
-/*movil */
+/*---------------------------------movil----------------------------------------------- */
 
-@media (max-width: 767px) {
+@media (max-width: 624px) {
     .background_banner {
         display: flex;
         text-align: center;
         flex-direction: column;
-        padding-top: 3rem;
+        padding-top: 1rem;
         width: 90%;
-        height: 102vh;
+        margin: 0 auto;
+        height: 100vh;
     }
-
     .section_title h1 {
         color: white;
-        font-size: 5rem;
-        padding-bottom: 1rem;
+        font-size: 4rem;
     }
-
+    .section_title p {
+        color: hsl(0deg 0.78% 66.14%);
+        font-size: 1.5rem;
+        padding: 1rem 0rem 1rem 0rem;
+    }
     .slide-left {
         position: relative;
         padding-top: 3rem;
@@ -95,7 +98,7 @@
     }
 }
 
-/* tablet */
+/* -------------------------------------tablet */
 @media (min-width: 625px) and (max-width: 1024px) {
     .background_banner {
         display: flex;
@@ -118,7 +121,7 @@
     }
 }
 
-/*desktop) */
+/*-----------------------------------desktop) */
 @media (min-width: 1025px) and (max-width:1440px) {
     .background_banner {
         width: 100%;

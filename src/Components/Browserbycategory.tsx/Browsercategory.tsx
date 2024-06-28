@@ -1,4 +1,5 @@
 
+import { Link } from 'react-router-dom'
 import { Camera } from '../../assets/icons/Camera'
 import { Computer } from '../../assets/icons/Computer'
 import { Gamepad } from '../../assets/icons/Gamepad'
@@ -15,10 +16,12 @@ export const Browsercategory = () => {
                     <h2>Browse By category</h2>
                 </div>
                 <section className="section_items">
-                    <article className="items_browser">
-                        <Phone />
-                        <h2>Phone</h2>
-                    </article>
+                        <Link className="items_browser" to="/Pageproductos">
+                            <article>
+                                <Phone />
+                                <h2>Phone</h2>
+                            </article>
+                        </Link>
                     <article className="items_browser">
                         <Watch />
                         <h2>Smartwatch</h2>

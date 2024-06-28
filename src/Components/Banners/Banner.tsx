@@ -7,6 +7,7 @@ export const Banner = () => {
         <section className="banner_container">
             <article className="background_banner">
                 <div className="section_title">
+                    <p>Pro.Beyond.</p>
                     <h1>Iphone 14 <strong>pro</strong></h1>
                     <p>Created to change everything for the better. For everyone</p>
                     <Buttons title={"Shop now"} />

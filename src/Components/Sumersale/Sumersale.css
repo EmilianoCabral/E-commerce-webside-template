@@ -21,3 +21,16 @@
 .sale_box {
     padding-bottom: 2.5rem;
 }
+
+/*----------------------------------------Queries----------------------------------------------*/
+
+@media (max-width: 624px) {
+    .sale_title {
+        font-size: 3rem;
+        text-align: center;
+    }
+    .sale_text {
+        text-align: center;
+        font-size: 1rem;
+    }
+}

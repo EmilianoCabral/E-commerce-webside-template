@@ -7,6 +7,9 @@
     padding-top: 5rem;
     font-family: "Roboto", sans-serif;
 }
+.section_browse {
+    background-color: #f8f8f8;
+}
 .browse_title {
     margin-bottom: 2rem;
 }
@@ -16,8 +19,13 @@
     justify-content: space-between;
     border-radius: 1rem;
 }
+.section_items a {
+    color: black;
+    text-decoration: none;
+}
 .items_browser {
     display: flex;
+    text-align: center;
     align-items: center;
     justify-content: center;
     flex-direction: column;
@@ -28,8 +36,6 @@
     width: 160px;
     height: 128px;
     box-shadow: 0px 1px 10px rgb(207, 207, 207);
-/*     transition: transform 350ms ease 0s;
-    transform: translate3d(-161.714px, 0px, 0px); */
 }
 .items_browser:hover {
     box-shadow: 5px 5px 20px rgb(0, 0, 0.4);
@@ -37,9 +43,9 @@
     transform: translateY(-3%);
 }
 
-/*Queries*/
+/*---------------------------------------------------Queries---------------------------------------*/
 
-/*teléfonos móviles */
+/*---------------------------------------------teléfonos móviles--------------------------------- */
 @media (max-width: 624px) {
     .browse_title {
         font-family: "Robot",sans-serif;
@@ -47,14 +53,14 @@
     }
     .items_browser{
         display: flex;
+        text-align: center;
         align-items: center;
         justify-content: center;
         flex-direction: column;
         background-color: rgb(207, 207, 207);
         border-radius: 1rem;
-        padding-top: 1.5rem;
-        padding-bottom: 1.5rem;
-        width: 160px;
+        padding: 1.5rem 0rem 1.5rem 0rem;
+        width: 100%;
         height: 128px;
         box-shadow: 0px 1px 10px rgb(207, 207, 207);
     }
@@ -63,6 +69,9 @@
         padding-top: 0.5rem;
     }
     .container_browser{
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
         position: relative;
         background-color: white;
         padding-top: 4rem;
@@ -75,7 +84,7 @@
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         gap: 1rem;
-        width: 90%;
+        justify-items: center;
         margin: 0 auto;
     }
     .browse_title{
@@ -86,14 +95,13 @@
     }
 }
 
-/* tabletas */
+/* -------------------------------------------------tabletas------------------------------------- */
 @media (min-width: 625px) and (max-width: 1024px) {
     .browse_items {
         position: relative;
         display: grid;
         grid-template-rows: repeat(2, 1fr);
         grid-template-columns: repeat(3, 1fr);
-
         gap:none;
         width: 90%;
         margin: 0 auto;
@@ -106,7 +114,7 @@
     }
 }
 
-/* computadoras de escritorio) */
+/* ------------------------------------------------escritorio----------------------------------- */
 @media  (min-width: 1025px) and (max-width:1440px) {
     .container_browser {
         width: 100%;

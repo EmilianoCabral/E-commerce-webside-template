@@ -2,83 +2,243 @@
     "product": [
         {
             "id": 1,
-            "category": "cellphones",
-            "name": "Samsung Galaxy S21",
-            "description": "High-end phone with 6.2-inch AMOLED display and 64MP triple camera.",
-            "price": 799.99,
-            "img": "./src/assets/191559-800-auto.webp"
+            "brand": "Apple",
+            "category": "cellphone",
+            "name": "iPhone 12",
+            "model": "12",
+            "price": 799,
+            "characteristics": [
+                "Pantalla 6.1 pulgadas",
+                "64GB almacenamiento",
+                "4GB RAM",
+                "Dual cámara trasera"
+            ],
+            "description": "El iPhone 12 cuenta con una pantalla Super Retina XDR y el potente chip A14 Bionic.",
+            "img": "https://placehold.co/400x300"
         },
         {
             "id": 2,
-            "category": "cellphones",
-            "name": "iPhone 14 Pro",
-            "description": "High-end phone with 6.1-inch Super Retina XDR display and 12MP triple camera.",
-            "price": 999.99,
-            "img": "./src/assets/3114-3.webp"
+            "brand": "Apple",
+            "category": "cellphone",
+            "name": "iPhone 12 Pro",
+            "model": "12 Pro",
+            "price": 999,
+            "characteristics": [
+                "Pantalla 6.1 pulgadas",
+                "128GB almacenamiento",
+                "6GB RAM",
+                "Triple cámara trasera"
+            ],
+            "description": "El iPhone 12 Pro ofrece un rendimiento de alta gama con su cámara profesional y diseño de lujo.",
+            "img": "https://placehold.co/400x300"
         },
         {
             "id": 3,
-            "category": "cellphones",
-            "name": "Google Pixel 6",
-            "description": "Phone with 6.4-inch AMOLED display and 50MP dual camera.",
-            "price": 599.99,
-            "img": "./src/assets/41ok+oTQnrL.webp"
+            "brand": "Apple",
+            "category": "cellphone",
+            "name": "iPhone SE (2020)",
+            "model": "SE 2020",
+            "price": 399,
+            "characteristics": [
+                "Pantalla 4.7 pulgadas",
+                "64GB almacenamiento",
+                "3GB RAM",
+                "Single cámara trasera"
+            ],
+            "description": "El iPhone SE (2020) es un teléfono compacto con el potente chip A13 Bionic a un price accesible.",
+            "img": "https://placehold.co/400x300"
         },
         {
             "id": 4,
-            "category": "cellphones",
-            "name": "OnePlus 9",
-            "description": "Phone with 6.55-inch Fluid AMOLED display and 48MP triple camera.",
-            "price": 729.99,
-            "img": "https://example.com/img/oneplus-9.jpg"
+            "brand": "Apple",
+            "category": "cellphone",
+            "name": "iPhone 11",
+            "model": "11",
+            "price": 699,
+            "characteristics": [
+                "Pantalla 6.1 pulgadas",
+                "64GB almacenamiento",
+                "4GB RAM",
+                "Dual cámara trasera"
+            ],
+            "description": "El iPhone 11 ofrece un excelente rendimiento y cámaras de alta calidad a un price razonable.",
+            "img": "https://placehold.co/400x300"
         },
         {
             "id": 5,
-            "category": "cameras",
-            "name": "Canon EOS R5",
-            "description": "Mirrorless camera with 45MP full-frame sensor and 8K video recording.",
-            "price": 3899.99,
-            "img": "https://example.com/img/canon-eos-r5.jpg"
+            "brand": "Apple",
+            "category": "cellphone",
+            "name": "iPhone 11 Pro",
+            "model": "11 Pro",
+            "price": 999,
+            "characteristics": [
+                "Pantalla 5.8 pulgadas",
+                "64GB almacenamiento",
+                "4GB RAM",
+                "Triple cámara trasera"
+            ],
+            "description": "El iPhone 11 Pro es un dispositivo de alta gama con un rendimiento excepcional y una cámara avanzada.",
+            "img": "https://placehold.co/400x300"
         },
         {
             "id": 6,
-            "category": "cameras",
-            "name": "Sony Alpha a7 III",
-            "description": "Mirrorless camera with 24.2MP full-frame sensor and image stabilization.",
-            "price": 1999.99,
-            "img": "https://example.com/img/sony-alpha-a7-iii.jpg"
+            "brand": "samsung",
+            "category": "cellphone",
+            "name": "Samsung Galaxy S21",
+            "model": "Galaxy S21",
+            "price": 799,
+            "characteristics": [
+                "Pantalla 6.2 pulgadas",
+                "128GB almacenamiento",
+                "8GB RAM",
+                "Triple cámara trasera"
+            ],
+            "description": "El Samsung Galaxy S21 es un teléfono inteligente de alta gama con una pantalla Dynamic AMOLED 2X y un rendimiento excepcional.",
+            "img": "https://placehold.co/400x300"
         },
         {
             "id": 7,
-            "category": "cameras",
-            "name": "Nikon Z6 II",
-            "description": "Mirrorless camera with 24.5MP full-frame sensor and 4K video recording.",
-            "price": 1996.95,
-            "img": "https://example.com/img/nikon-z6-ii.jpg"
+            "brand": "samsung",
+            "category": "cellphone",
+            "name": "Samsung Galaxy Note 20",
+            "model": "Note 20",
+            "price": 999,
+            "characteristics": [
+                "Pantalla 6.7 pulgadas",
+                "256GB almacenamiento",
+                "8GB RAM",
+                "S Pen incluido"
+            ],
+            "description": "El Samsung Galaxy Note 20 es un teléfono de gama alta diseñado para productividad con su S Pen y potentes especificaciones.",
+            "img": "https://placehold.co/400x300"
         },
         {
             "id": 8,
-            "category": "gaming",
-            "name": "PlayStation 5",
-            "description": "Next-generation gaming console with support for 4K games and ray tracing.",
-            "price": 499.99,
-            "img": "./src/assets/Ps5-Console (1).png"
+            "brand": "samsung",
+            "category": "cellphone",
+            "name": "Samsung Galaxy A52",
+            "model": "A52",
+            "price": 499,
+            "characteristics": [
+                "Pantalla 6.5 pulgadas",
+                "128GB almacenamiento",
+                "6GB RAM",
+                "Cuádruple cámara trasera"
+            ],
+            "description": "El Samsung Galaxy A52 es un teléfono de gama media con una gran pantalla y buenas cámaras a un precio accesible.",
+            "img": "https://placehold.co/400x300"
         },
         {
             "id": 9,
-            "category": "gaming",
-            "name": "Xbox Series X",
-            "description": "Next-generation gaming console with support for 4K games and 120 FPS.",
-            "price": 499.99,
-            "img": "https://example.com/img/xbox-series-x.jpg"
+            "brand": "samsung",
+            "category": "cellphone",
+            "name": "Samsung Galaxy Z Flip",
+            "model": "Z Flip",
+            "price": 1299,
+            "characteristics": [
+                "Pantalla plegable 6.7 pulgadas",
+                "256GB almacenamiento",
+                "8GB RAM",
+                "Diseño compacto"
+            ],
+            "description": "El Samsung Galaxy Z Flip es un teléfono plegable con un diseño innovador y un rendimiento de alta gama.",
+            "img": "https://placehold.co/400x300"
         },
         {
             "id": 10,
-            "category": "gaming",
-            "name": "Nintendo Switch",
-            "description": "Hybrid gaming console with 6.2-inch display and Joy-Con controllers.",
-            "price": 299.99,
-            "img": "https://example.com/img/nintendo-switch.jpg"
+            "brand": "samsung",
+            "category": "cellphone",
+            "name": "Samsung Galaxy M31",
+            "model": "M31",
+            "price": 249,
+            "characteristics": [
+                "Pantalla 6.4 pulgadas",
+                "64GB almacenamiento",
+                "6GB RAM",
+                "Batería 6000mAh"
+            ],
+            "description": "El Samsung Galaxy M31 es un teléfono económico con una gran batería y un buen rendimiento para el uso diario.",
+            "img": "https://placehold.co/400x300"
+        },
+        {
+            "id": 11,
+            "brand": "Xiaomi",
+            "category": "cellphone",
+            "name": "Xiaomi Mi 11",
+            "model": "Mi 11",
+            "price": 749,
+            "characteristics": [
+                "Pantalla 6.81 pulgadas",
+                "128GB almacenamiento",
+                "8GB RAM",
+                "Triple cámara trasera"
+            ],
+            "description": "El Xiaomi Mi 11 es un teléfono de alta gama con una pantalla AMOLED y un rendimiento potente.",
+            "img": "https://placehold.co/400x300"
+        },
+        {
+            "id": 12,
+            "brand": "Xiaomi",
+            "category": "cellphone",
+            "name": "Xiaomi Redmi Note 10",
+            "model": "Redmi Note 10",
+            "price": 199,
+            "characteristics": [
+                "Pantalla 6.43 pulgadas",
+                "64GB almacenamiento",
+                "4GB RAM",
+                "Cuádruple cámara trasera"
+            ],
+            "description": "El Xiaomi Redmi Note 10 ofrece una excelente relación calidad-precio con su pantalla AMOLED y buen rendimiento.",
+            "img": "https://placehold.co/400x300"
+        },
+        {
+            "id": 13,
+            "brand": "Xiaomi",
+            "category": "cellphone",
+            "name": "Xiaomi Mi 10T",
+            "model": "Mi 10T",
+            "price": 599,
+            "characteristics": [
+                "Pantalla 6.67 pulgadas",
+                "128GB almacenamiento",
+                "6GB RAM",
+                "Triple cámara trasera"
+            ],
+            "description": "El Xiaomi Mi 10T es un teléfono de gama media-alta con una pantalla de 144Hz y buenas especificaciones.",
+            "img": "https://placehold.co/400x300"
+        },
+        {
+            "id": 14,
+            "brand": "Xiaomi",
+            "category": "cellphone",
+            "name": "Xiaomi Poco X3",
+            "model": "Poco X3",
+            "price": 229,
+            "characteristics": [
+                "Pantalla 6.67 pulgadas",
+                "64GB almacenamiento",
+                "6GB RAM",
+                "Cuádruple cámara trasera"
+            ],
+            "description": "El Xiaomi Poco X3 ofrece una gran relación calidad-precio con una batería de larga duración y un buen rendimiento.",
+            "img": "https://placehold.co/400x300"
+        },
+        {
+            "id": 15,
+            "brand": "Xiaomi",
+            "category": "cellphone",
+            "name": "Xiaomi Mi 10",
+            "model": "Mi 10",
+            "price": 699,
+            "characteristics": [
+                "Pantalla 6.67 pulgadas",
+                "256GB almacenamiento",
+                "8GB RAM",
+                "Cuádruple cámara trasera"
+            ],
+            "description": "El Xiaomi Mi 10 es un teléfono de gama alta con una gran pantalla y un rendimiento excelente.",
+            "img": "https://placehold.co/400x300"
         }
     ]
 }
