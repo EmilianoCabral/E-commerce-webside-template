@@ -93,12 +93,13 @@
     }
     .slide-left {
         position: relative;
-        padding-top: 3rem;
+        padding-top: 5rem;
         width: 100%;
     }
 }
 
-/* -------------------------------------tablet */
+/* -------------------------------------tablet--------------------------- */
+
 @media (min-width: 625px) and (max-width: 1024px) {
     .background_banner {
         display: flex;
@@ -106,8 +107,8 @@
         text-align: center;
         width: 90%;
         margin: 0px auto;
-        padding-bottom: 100%;
-        padding-top: 6rem;
+        height: 100vh;
+        padding-top: 4rem;
     }
     .section_title {
         color: white;
@@ -117,11 +118,12 @@
     }
     .slide-left {
         height: auto;
-        padding-top: 5rem;
+        padding-top: 1rem;
     }
 }
 
-/*-----------------------------------desktop) */
+/*-----------------------------------desktop------------------------------ */
+
 @media (min-width: 1025px) and (max-width:1440px) {
     .background_banner {
         width: 100%;
@@ -130,7 +132,6 @@
         max-width: 70rem;
         height: 100vh;
     }
-
     .section_title h1 {
         font-size: 6rem;
         color: hsl(0deg 0.78% 66.14%);

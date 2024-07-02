@@ -4,6 +4,10 @@
     margin-right: auto;
     max-width: 82.5rem;
 }
+.section_navbar {
+    display: flex;
+    gap: 4rem;
+}
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -41,10 +45,31 @@
     list-style: none;
     gap: 3rem;
     font-family: "Roboto", sans-serif;
+    color: black;
 }
+/* .links {
+    position: absolute;
+    top: -700px;
+    left: 2000px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+} */
+/* .navbar_list.active {
+    width: 100%;
+    height: 50%;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    color: aliceblue;
+} */
 .itemlist {
     font-size: 1.5rem;
     padding: 5px;
+    color: black;
 }
 .itemlist:hover {
     border-bottom: 1px solid black;
@@ -62,8 +87,33 @@
 /*------------------------------------------------queries-----------------------------------*/
 
 
-/*------------------------------------- móviles */
+/*------------------------------------- móviles ------------------------------------*/
+
 @media (max-width: 624px) {
+    .section_navbar {
+        display: none;
+    }
+    .section_navbar.active {
+
+        display: flex;
+        gap: 1rem;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        text-align: center;
+        position: absolute;
+        right: 0px;
+        top: 1px;
+        background-color: white;
+        padding: 1rem;
+        box-shadow: 0 0 0 100vmax rgb(0, 0, 0, .5);
+        z-index: 1;
+        height: 100%;
+    }
+    .itemlist {
+        font-size: 1.5rem;
+        padding-bottom: 1rem;
+    }
     .navbar {
         display: flex;
         align-items: center;
@@ -83,8 +133,22 @@
     .search_input input{
         width: 100%;
     }
+    .dropdown-toggle {
+        display: block;
+        z-index: 2;
+    }
+    .menu_exit {
+        display: block;
+    }
+    .navbar_list {
+        display: block;
+        align-items: center;
+        padding-top: 1rem;
+    }
 }
-/* tabletas */
+
+/* ------------------------------------------------tablet -------------------------------------------------------------*/
+
 @media (min-width: 625px) and (max-width: 1024px) {
     .header_container{
         width: 90%;
@@ -96,39 +160,47 @@
         margin: 0 auto;
     }
     .search_input input{
-        width: 20rem;
+        width: 30rem;
     }
-}
-
-@media (max-width: 900px) {
     .dropdown-toggle {
         display: block;
+        z-index: 2;
     }
     .menu_exit {
         display: block;
     }
     .section_navbar {
+        display: none;
+    }
+    .section_navbar.active {
         display: flex;
+        gap: 2rem;
         flex-direction: column;
-        align-items: end;
+        width: 100%;
+        align-items: center;
+        text-align: center;
         position: absolute;
-        opacity: 0px;
-        visibility: hidden;
-        top: 0px;
         right: 0px;
-        background-color: black;
+        top: 1px;
+        background-color: white;
         padding: 2rem;
-        bottom: 0px;
         box-shadow: 0 0 0 100vmax rgb(0, 0, 0, .5);
-        color: white;
+        z-index: 1;
+        height: 50%;
     }
     .navbar_list {
-        flex-direction: column;
-        align-items: end;
+        display: block;
+        align-items: center;
+    }
+    .itemlist {
+        padding-bottom: 1rem;
+        font-size: 2.5rem;
     }
 }
 
-/* computadoras de escritorio */
+
+/* ----------------------------------computadoras de escritorio --------------------------------------*/
+
 @media  (min-width: 1025px) and (max-width: 1440px)  {
     .search_input input {
         width: 18rem;

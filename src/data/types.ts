@@ -6,6 +6,6 @@ export interface ProductsProps {
     model: string
     description: string;
     price: number;
-    characteristics?: string[];
+    characteristics: string[];
     img?: string;
 }
