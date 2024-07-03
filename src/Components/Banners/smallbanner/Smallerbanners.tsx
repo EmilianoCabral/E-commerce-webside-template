@@ -29,7 +29,7 @@ export const Smallerbanners = () => {
                     </div>
                     <div className="box3_text">
                         <h2 className="box3_title">Playstation <strong>5</strong></h2>
-                        <p className="box3_paragraph">Incredible powerful CPUs, GPUs, and an SSD with integrated I/O will redifine your PlayStation experience.</p>
+                        <p className="box3_paragraph">Incredible powerful CPUs, GPUs.</p>
                     </div>
                 </article>
                 <article className="box4">

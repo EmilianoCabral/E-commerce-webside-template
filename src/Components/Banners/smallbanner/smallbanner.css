@@ -265,11 +265,94 @@
 /*--------------------------------------------- tablet-------------------------------------------------- */
 @media (min-width: 625px) and (max-width: 1024px) {
     .small_banner {
-        position: relative;
         display:flex;
         flex-direction: column;
-        width: 90%;
+        width: 100%;
         margin: 0% auto;
+    }
+    .box1 {
+        grid-area: box1;
+        display: flex;
+        padding: 1rem 0rem 1rem 0rem ;
+    }
+    .box1_img{
+        width: 15rem;
+        left: -50px;
+    }
+    .box1_text {
+        text-align: center;
+    }
+    .box1_title {
+        font-weight: 300;
+        font-size: 2.5rem;
+        right: 0;
+    }
+    .box1_paragraph {
+        font-size: 1rem;
+        right: 0;
+    }
+
+    .box2 {
+        grid-area: box2;
+        display: flex;
+        flex-direction: row;
+        padding: 6rem 0rem 6rem 0rem;
+    }
+    .box2_img{
+        width: 15rem;
+        translate: -3rem;
+    }
+    .box2_title {
+        font-weight: 300;
+        font-size: 2.5rem;
+    }
+    .box2_paragraph {
+        font-family: "Roboto", sans-serif;
+        font-size: 1rem;
+        color: gray;
+    }
+    .box3 {
+        grid-area: box3;
+        display: flex;
+        padding: 6rem 0rem 6rem 0rem;
+    }
+    .box3_img {
+        width: 15rem;
+        left: -50px;
+    }
+    .box3_title {
+        font-weight: 400;
+        font-size: 2.5rem;
+        right: 0px;
+    }
+    .box3_paragraph {
+        font-size: 1rem;
+        right: 0px;
+    }
+    .box4 {
+        grid-area: box4;
+        padding: 1rem 0rem 1rem 0rem;
+    }
+    .box4_img{
+        width: 20rem;
+    }
+    .box4_title {
+        font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        font-size: 4rem;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+    .box4_title strong{
+        font-weight: 300;
+    }
+    .box4_paragraph {
+        font-family: "Roboto", sans-serif;
+        font-size: 1rem;
+        color: #5c5c5c;
+        padding-bottom: 1rem;
+        width: 90%; 
+        margin: 0 auto;
     }
 }
 
