@@ -116,8 +116,14 @@
 }
 .character_paragraph{
     font-family: "Roboto", sans-serif;
+    color: gray;
 }
-.td {
-    padding-left: 68rem;
-    padding-bottom: 2rem;
+.tr_table {
+    font-family: "Roboto",sans-serif;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    width: 75rem;
+    justify-content: space-between;
+    padding: 1rem 0rem 1rem 0rem;
 }

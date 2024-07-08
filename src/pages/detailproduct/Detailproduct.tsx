@@ -1,6 +1,7 @@
 import { Buttons1 } from '../../Components/buttons/Buttons'
 import { Cameracard, Camerafront, Cardbatery, Categorycard, Cpucard } from '../../Components/cards/Categorycard'
 import { Tabs } from '../../Components/tabs/Tabs'
+import { Comment } from '../reviews/Comment'
 import { Reviews } from '../reviews/Reviews'
 import './detailproduct.css'
 
@@ -83,7 +84,7 @@ export const Detailproduct = () => {
                                     Screen
                                 </thead>
                                 <tbody>
-                                    <tr>
+                                    <tr className="tr_table">
                                         <th>
                                             Screen diagonal
                                         </th>
@@ -91,36 +92,67 @@ export const Detailproduct = () => {
                                             6.7"
                                         </td>
                                     </tr>
-                                    <tr>
+                                    <tr className="tr_table">
                                         <th>
-                                            Screen diagonal
+                                            The screen resolution
                                         </th>
                                         <td className="td">
-                                            6.7"
+                                            2796x1290
                                         </td>
                                     </tr>
-                                    <tr>
+                                    <tr  className="tr_table">
                                         <th>
-                                            Screen diagonal
+                                            the screen refresh rate
                                         </th>
                                         <td className="td">
-                                            6.7"
+                                            120 Hz
                                         </td>
                                     </tr>
-                                    <tr>
+                                    <tr className="tr_table">
                                         <th>
-                                            Screen diagonal
+                                            the pixel density
                                         </th>
                                         <td className="td">
-                                            6.7"
+                                            460 ppi
                                         </td>
                                     </tr>
-                                    <tr>
+                                    <tr className="tr_table">
                                         <th>
-                                            Screen diagonal
+                                            Screen type
                                         </th>
                                         <td className="td">
-                                            6.7"
+                                            OLED
+                                        </td>
+                                    </tr>
+                                    <tr className="tr_table">
+                                        <th>Additionally</th>
+                                        <td className="td">
+                                            Dynamic island <br />
+                                            Always-On display <br />
+                                            HDY display <br />
+                                            True ton <br />
+                                            Wide color(P3) <br />
+                                        </td>
+                                    </tr>
+                                </tbody>
+                                <thead>
+                                    CPU
+                                </thead>
+                                <tbody>
+                                    <tr className="tr_table">
+                                        <th>
+                                            CPU
+                                        </th>
+                                        <td>
+                                            A16 Bionic
+                                        </td>
+                                    </tr>
+                                    <tr className="tr_table">
+                                        <th>
+                                            Number of cores
+                                        </th>
+                                        <td>
+                                            6
                                         </td>
                                     </tr>
                                 </tbody>
@@ -130,6 +162,7 @@ export const Detailproduct = () => {
                 </div>
             </section>
             <Reviews />
+            <Comment />
         </section>
     )
 }
