@@ -8,15 +8,12 @@ import { User } from '../../assets/icons/User'
 
 
 export const Headers: React.FC  = () => {
-
     const [clickedd, setClicked] = useState(false);
     console.log('clickedd state:', clickedd);
-
     const handleClick = () => {
         setClicked(!clickedd)
         console.log(clickedd);
     }
-
     return (
         <header className="header_container">
             <div className="navbar">

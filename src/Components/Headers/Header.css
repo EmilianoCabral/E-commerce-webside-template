@@ -53,6 +53,7 @@
     font-size: 1.5rem;
     padding: 5px;
     color: black;
+    font-weight: 300;
 }
 .itemlist:hover {
     border-bottom: 1px solid black;
@@ -177,7 +178,7 @@
 
 @media  (min-width: 1025px) and (max-width: 1440px)  {
     .search_input input {
-        width: 18rem;
+        width: 14rem;
     }
     .header_container{
         width: 100%;
