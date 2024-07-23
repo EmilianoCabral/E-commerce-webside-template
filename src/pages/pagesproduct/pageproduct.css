@@ -5,13 +5,14 @@
     max-width: 70rem;
 }
 .page_container{
-    display: grid;
+    display: grid; 
+    padding: 4rem 0rem 0rem 0rem;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(12, 1fr);
     height: 100vh;
     grid-template-areas: 
     "sidebar header_product header_product header_product"
-    "sidebar      box_1          box_2          box_3    ";
+    "sidebar box_1          box_2          box_3    ";
 }
 .sidebar{
     grid-area: sidebar;

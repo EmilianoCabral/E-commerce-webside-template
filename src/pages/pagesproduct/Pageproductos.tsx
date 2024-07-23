@@ -1,7 +1,24 @@
 import './pageproduct.css'
+import { askfordata } from '../../data/helpers/askfordata';
+import { ProductsProps } from '../../data/types';
+import { useEffect, useState } from 'react';
 
 
 export const Pageproductos = () => {
+    const [products, setProducts] = useState<ProductsProps[]>([]);
+    const [error, setError] = useState<string | null>(null);
+    useEffect(() => {
+        askfordata ()
+            .then((data) => {
+                setProducts(data);
+            })
+            .catch((error) => {
+                setError(error.message);
+            })
+    }, []);
+    if (error) {
+        return <div>Error: {error}</div>;
+    }
     return (
         <section className="page_product">
             <div className="page_container">
@@ -16,103 +33,20 @@ export const Pageproductos = () => {
                     </div>
                 </header>
                 <section className="box_1">
-                    <div>
-                        <img src="https://placehold.co/160x160" alt="" />
-                    </div>
-                    <div>
-                        <h2>title product</h2>
-                        <p>description product</p>
-                    </div>
-                    <div>
-                        <button>shop now</button>
-                    </div>
-                    <div>
-                        <img src="https://placehold.co/160x160" alt="" />
-                    </div>
-                    <div>
-                        <h2>title product</h2>
-                        <p>description product</p>
-                    </div>
-                    <div>
-                        <button>shop now</button>
-                    </div>
-                    <div>
-                        <img src="https://placehold.co/160x160" alt="" />
-                    </div>
-                    <div>
-                        <h2>title product</h2>
-                        <p>description product</p>
-                    </div>
-                    <div>
-                        <button>shop now</button>
-                    </div>
+                    {products.map(product => (
+                        <div>
+                            <div>
+                                {product.img}
+                            </div>
+                            <h2>
+                                {product.name}
+                            </h2>
+                            <span>
+                                {product.price}
+                            </span>
+                        </div>
+                    ))}
                 </section>
-                <article className="box_2">
-                    <div>
-                        <img src="https://placehold.co/160x160" alt="" />
-                    </div>
-                    <div>
-                        <h2>title product</h2>
-                        <p>description product</p>
-                    </div>
-                    <div>
-                        <button>shop now</button>
-                    </div>
-                    <div>
-                        <img src="https://placehold.co/160x160" alt="" />
-                    </div>
-                    <div>
-                        <h2>title product</h2>
-                        <p>description product</p>
-                    </div>
-                    <div>
-                        <button>shop now</button>
-                    </div>
-                    <div>
-                        <img src="https://placehold.co/160x160" alt="" />
-                    </div>
-                    <div>
-                        <h2>title product</h2>
-                        <p>description product</p>
-                    </div>
-                    <div>
-                        <button>shop now</button>
-                    </div>
-                </article>
-                <article className="box_3">
-                    <div>
-                        <img src="https://placehold.co/160x160" alt="" />
-                    </div>
-                    <div>
-                        <h2>title product</h2>
-                        <p>description product</p>
-                    </div>
-                    <div>
-                        <button>shop now</button>
-                    </div>
-                    <div>
-                        <img src="https://placehold.co/160x160" alt="" />
-                    </div>
-                    <div>
-                        <h2>title product</h2>
-                        <p>description product</p>
-                    </div>
-                    <div>
-                        <button>shop now</button>
-                    </div>
-                    <div>
-                        <div>
-                            <img src="https://placehold.co/160x160" alt="" />
-                        </div>
-                        <div>
-                            <h2>title product</h2>
-                            <p>description product</p>
-                        </div>
-                        <div>
-                            <button>shop now</button>
-                        </div>
-                    </div>
-                </article>
             </div>
         </section>
     )
