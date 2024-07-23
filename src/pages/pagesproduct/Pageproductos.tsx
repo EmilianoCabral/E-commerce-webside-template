@@ -8,7 +8,7 @@ export const Pageproductos = () => {
     const [products, setProducts] = useState<ProductsProps[]>([]);
     const [error, setError] = useState<string | null>(null);
     useEffect(() => {
-        askfordata ()
+        askfordata()
             .then((data) => {
                 setProducts(data);
             })
@@ -22,11 +22,24 @@ export const Pageproductos = () => {
     return (
         <section className="page_product">
             <div className="page_container">
-                <article className="sidebar">
+                <section className="sidebar">
                     <div >
                         <button>Brand</button>
                     </div>
-                </article>
+                    <div>Apple</div>
+                    <div>Samsung</div>
+                    <div>Xiaomi</div>
+                    <div>Motorola</div>
+                    <article>
+                        <div>
+                            <button>Battery capacity</button>
+                        </div>
+                    </article>
+                    <article>
+                        <button>Memory</button>
+                        
+                    </article>
+                </section>
                 <header className="header_product">
                     <div>
                         <p>Selected product</p>
@@ -35,15 +48,17 @@ export const Pageproductos = () => {
                 <section className="box_1">
                     {products.map(product => (
                         <div>
-                            <div>
-                                {product.img}
+                            <div className="img_pro">
+                                {product.img && <img src={product.img} alt={product.name} />}
                             </div>
-                            <h2>
-                                {product.name}
-                            </h2>
-                            <span>
-                                {product.price}
-                            </span>
+                            <div className="container_text">
+                                <h2 className="title_page">
+                                    {product.name}
+                                </h2>
+                                <span>
+                                    {product.price}
+                                </span>
+                            </div>
                         </div>
                     ))}
                 </section>

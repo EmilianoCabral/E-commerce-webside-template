@@ -239,6 +239,86 @@
             ],
             "description": "El Xiaomi Mi 10 es un teléfono de gama alta con una gran pantalla y un rendimiento excelente.",
             "img": "https://placehold.co/400x300"
+        },
+        {
+            "id": 16,
+            "brand": "Motorola",
+            "category": "Smartphone",
+            "name": "Moto G Power",
+            "model": "XT2117-4",
+            "price": 199.99,
+            "characteristics": [
+                "5000mAh Battery",
+                "48MP Triple Camera",
+                "6.6-inch Display",
+                "64GB Storage"
+            ],
+            "description": "Moto G Power (2021) offers a long-lasting battery, triple camera system, and an expansive display.",
+            "img": "https://placehold.co/400x300"
+        },
+        {
+            "id": 17,
+            "brand": "Motorola",
+            "category": "Smartphone",
+            "name": "Moto G Stylus",
+            "model": "XT2115-2",
+            "price": 299.99,
+            "characteristics": [
+                "Built-in Stylus",
+                "48MP Quad Camera",
+                "6.8-inch Display",
+                "128GB Storage"
+            ],
+            "description": "Moto G Stylus (2021) features a built-in stylus for precision and creativity, along with a quad camera system.",
+            "img": "https://placehold.co/400x300"
+        },
+        {
+            "id": 18,
+            "brand": "Motorola",
+            "category": "Smartphone",
+            "name": "Moto Edge",
+            "model": "XT2063-2",
+            "price": 699.99,
+            "characteristics": [
+                "5G Connectivity",
+                "64MP Triple Camera",
+                "6.7-inch OLED Display",
+                "256GB Storage"
+            ],
+            "description": "Moto Edge brings 5G speed, a stunning OLED display, and a powerful camera system in a sleek design.",
+            "img": "https://placehold.co/400x300"
+        },
+        {
+            "id": 19,
+            "brand": "Motorola",
+            "category": "Smartphone",
+            "name": "Moto G Fast",
+            "model": "XT2045-3",
+            "price": 149.99,
+            "characteristics": [
+                "16MP Triple Camera",
+                "6.4-inch Display",
+                "32GB Storage",
+                "4000mAh Battery"
+            ],
+            "description": "Moto G Fast delivers a responsive performance, versatile camera system, and long battery life at an affordable price.",
+            "img": "https://placehold.co/400x300"
+        },
+        {
+            "id": 20,
+            "brand": "Motorola",
+            "category": "Smartphone",
+            "name": "Moto One 5G Ace",
+            "model": "XT2113-2",
+            "price": 399.99,
+            "characteristics": [
+                "5G Connectivity",
+                "48MP Triple Camera",
+                "6.7-inch Display",
+                "128GB Storage"
+            ],
+            "description": "Moto One 5G Ace offers blazing-fast 5G speed, a large display, and a versatile camera system for capturing every moment.",
+            "img": "https://placehold.co/400x300"
         }
     ]
 }
