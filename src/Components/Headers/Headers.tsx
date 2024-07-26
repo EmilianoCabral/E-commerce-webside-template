@@ -42,7 +42,7 @@ export const Headers: React.FC  = () => {
                                 Blog
                             </li>
                             <li className="itemlist">
-                                <Shopcar />
+                                <Link to="/Cartcontainer"><Shopcar /></Link>
                             </li>
                             <li className="itemlist">
                                 <User />
