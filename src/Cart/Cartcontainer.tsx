@@ -1,9 +1,10 @@
 import './cartstile.css'
+import { Cartview } from './Components/Cartview'
 
 export const Cartcontainer = () => {
     return (
         <div className="cart_container">
-            Hola soy el carrito pa
+            <Cartview />
         </div>
     )
 }
