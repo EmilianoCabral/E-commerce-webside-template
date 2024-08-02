@@ -2,6 +2,7 @@ import './pageproduct.css'
 import { askfordata } from '../../data/helpers/askfordata';
 import { ProductsProps } from '../../data/types';
 import { useEffect, useState } from 'react';
+import AccordionTransition from './component/AccordionTransition';
 
 
 export const Pageproductos = () => {
@@ -20,25 +21,12 @@ export const Pageproductos = () => {
         return <div>Error: {error}</div>;
     }
     return (
-        <section className="page_product">
+        <div className="page_product">
             <div className="page_container">
                 <section className="sidebar">
-                    <div >
-                        <button>Brand</button>
-                    </div>
-                    <div>Apple</div>
-                    <div>Samsung</div>
-                    <div>Xiaomi</div>
-                    <div>Motorola</div>
-                    <article>
                         <div>
-                            <button>Battery capacity</button>
+                            <AccordionTransition />
                         </div>
-                    </article>
-                    <article>
-                        <button>Memory</button>
-                        
-                    </article>
                 </section>
                 <header className="header_product">
                     <div>
@@ -63,6 +51,6 @@ export const Pageproductos = () => {
                     ))}
                 </section>
             </div>
-        </section>
+        </div>
     )
 };
