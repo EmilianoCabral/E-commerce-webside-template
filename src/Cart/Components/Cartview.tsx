@@ -1,4 +1,4 @@
-import './viewstyle.css'
+/* import './viewstyle.css'
 
 
 export const Cartview = () => {
@@ -23,3 +23,4 @@ export const Cartview = () => {
         </div>
     )
 }
+ */

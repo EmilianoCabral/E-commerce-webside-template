@@ -28,13 +28,9 @@ export const Pageproductos = () => {
                             <AccordionTransition />
                         </div>
                 </section>
-                <header className="header_product">
-                    <div>
-                        <p>Selected product</p>
-                    </div>
-                </header>
                 <section className="box_1">
-                    {products.map(product => (
+                    <div className="prod_container">
+                        {products.map(product => (
                         <div>
                             <div className="img_pro">
                                 {product.img && <img src={product.img} alt={product.name} />}
@@ -44,11 +40,12 @@ export const Pageproductos = () => {
                                     {product.name}
                                 </h2>
                                 <span>
-                                    {product.price}
+                                    ${product.price}
                                 </span>
                             </div>
                         </div>
                     ))}
+                    </div>
                 </section>
             </div>
         </div>

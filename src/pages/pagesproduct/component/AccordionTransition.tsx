@@ -47,7 +47,7 @@ export default function AccordionTransition() {
           aria-controls="panel2-content"
           id="panel2-header"
         >
-          <Typography>Default transition using Collapse</Typography>
+          <Typography>Battery capacity</Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
@@ -62,7 +62,7 @@ export default function AccordionTransition() {
           aria-controls="panel2-content"
           id="panel2-header"
         >
-          <Typography>Default transition using Collapse</Typography>
+          <Typography>Ram memory</Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography>

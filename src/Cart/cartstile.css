@@ -2,4 +2,8 @@
     width: 100%;
     margin: 0px auto;
     max-width: 82rem;
+
+    height: 47dvh;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
 }

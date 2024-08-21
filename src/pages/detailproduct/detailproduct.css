@@ -5,7 +5,7 @@
     max-width: 82.5rem;
     padding-top: 7rem;
     padding-bottom: 7rem;
-    border-top: 1px solid black;
+    border-top-style: groove;
 }
 .color_black {
     background-color: black;
