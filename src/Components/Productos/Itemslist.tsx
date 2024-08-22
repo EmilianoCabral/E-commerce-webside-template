@@ -1,5 +1,6 @@
-import { Buttons3 } from '../buttons/Buttons'
 import './Productos.css'
+
+import { Buttons3 } from '../buttons/Buttons'
 import { useEffect, useState } from 'react'
 import { askfordata } from '../../data/helpers/askfordata';
 import { ProductsProps } from '../../data/types';
@@ -26,7 +27,8 @@ export const Itemslist = () => {
             </div>
             <div className="products_items">
                 <article className="article">
-                    {products.slice(0, 8).map(product => (
+                    {products.slice(0, 8).map(
+                        product => (
                         <div className="articles">
                             <div>
                                 {product.img && <img src={product.img} alt={product.name} />}

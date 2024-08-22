@@ -6,51 +6,17 @@
     margin-top: 5rem;
     margin-bottom: 5rem;
 }
-.discont_item{
-    display: grid;
-    gap: 1rem;
-    grid-template-rows: repeat(1, 1fr);
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-areas: 
-    "item_1 item_2 item_3 item_4";
-}
 .discount_title{
     margin-bottom: 1rem;
 }
-.item_1{
-    background-color: blue;
-    height: 432px;
-    border-radius: 9px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+.item_1 img{
+    width: 100%;
 }
-.item_2{
-    background-color: blue;
-    height: 432px;
-    border-radius: 9px;
+.item_1 {
     display: flex;
-    flex-direction: column;
     align-items: center;
-    justify-content: center;
-}
-.item_3{
-    background-color: blue;
-    height: 432px;
-    border-radius: 9px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}.item_4{
-    background-color: blue;
-    height: 432px;
-    border-radius: 9px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    text-align: center;
+    gap: 1rem;
 }
 @media (max-width: 624px) {
     .discount_container{
