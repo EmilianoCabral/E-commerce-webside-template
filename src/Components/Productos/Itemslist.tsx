@@ -29,7 +29,7 @@ export const Itemslist = () => {
                 <article className="article">
                     {products.slice(0, 8).map(
                         product => (
-                        <div className="articles">
+                        <div key={product.id} className="articles">
                             <div>
                                 {product.img && <img src={product.img} alt={product.name} />}
                             </div>

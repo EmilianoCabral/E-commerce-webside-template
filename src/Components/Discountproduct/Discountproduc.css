@@ -9,10 +9,10 @@
 .discount_title{
     margin-bottom: 1rem;
 }
-.item_1 img{
+.item_info img{
     width: 100%;
 }
-.item_1 {
+.item_info {
     display: flex;
     align-items: center;
     text-align: center;

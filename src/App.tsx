@@ -7,6 +7,7 @@ import { Pageproductos } from './pages/pagesproduct/Pageproductos'
 import { Home } from './pages/Home'
 import { Detailproduct } from './pages/detailproduct/Detailproduct'
 import { Cartcontainer } from './Cart/Cartcontainer'
+import Login from './Login'
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
             <Route path='/Pageproductos' element={<Pageproductos />} />
             <Route path='/Detailproduct' element={<Detailproduct />} />
             <Route path='/Cartcontainer' element={<Cartcontainer />} />
+            <Route path='/Login' element={<Login />} />
           </Routes>
         </main>
       <Footer />

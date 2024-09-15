@@ -28,9 +28,9 @@ export const Discountproduc = () => {
             <h2>Discounts up to -50%</h2>
           </div>
           <div className="discount_item">
-            <article className="item_1">
+            <article className="item_info">
               {products.slice(0, 4).map((product) => (
-                <div>
+                <div key={product.id}>
                   <div>
                     {product.img && (
                       <img src={product.img} alt={product.name} />
