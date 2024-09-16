@@ -3,6 +3,7 @@ import { useEffect, useState } from "react";
 import { askfordata } from "../../data/helpers/askfordata";
 import { ProductsProps } from "../../data/types";
 import { ifError } from "assert";
+import { Buttons, Buttons3 } from "../buttons/Buttons";
 
 export const Discountproduc = () => {
   const [products, setProducts] = useState<ProductsProps[]>([]);
@@ -40,6 +41,7 @@ export const Discountproduc = () => {
                     <h2>{product.name}</h2>
                   </div>
                   <span>{product.price}</span>
+                  <Buttons3 title="Buy now" />
                 </div>
               ))}
             </article>

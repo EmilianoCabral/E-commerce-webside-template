@@ -8,15 +8,22 @@
 }
 .discount_title{
     margin-bottom: 1rem;
+    font-family: "Roboto", sans-serif;
 }
 .item_info img{
     width: 100%;
 }
 .item_info {
+    padding: 1.5rem 1rem 1.5rem 1rem;
+    background-color:rgb(241 241 241);
     display: flex;
-    align-items: center;
+    justify-content: space-between;
     text-align: center;
+    border-radius: 8px;
     gap: 1rem;
+}
+.item_info h2 {
+    font-family: "Roboto", sans-serif;
 }
 @media (max-width: 624px) {
     .discount_container{

@@ -43,7 +43,7 @@ export const Itemslist = () => {
                                 ${product.price}
                             </span>
                             <div>
-                                {/* <Buttons3 title="Buy now" /> */}
+                                <Buttons3 title="Buy now" />
                             </div>
                         </div>
                     ))}

@@ -24,7 +24,6 @@ export const Buttons1 = (props: props) => {
     )
 }
 
-
 export const Buttons3 = (props: props) => {
     let {title} = props
     return (

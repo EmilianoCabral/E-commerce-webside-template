@@ -4,7 +4,7 @@ import './smallbanner.css'
 export const Smallerbanners = () => {
     return (
         <section className="small_container">
-            <div className="small_banner">
+            {/* <div className="small_banner">
                 <article className="box1">
                     <div>
                         <img className="box1_img" src="./src/assets/Apple-Airpods-Max.Webp" alt="algo" />
@@ -42,7 +42,7 @@ export const Smallerbanners = () => {
                         <Buttons title={"Shop now"} />
                     </div>
                 </article>
-            </div>
+            </div> */}
         </section>
     )
 }

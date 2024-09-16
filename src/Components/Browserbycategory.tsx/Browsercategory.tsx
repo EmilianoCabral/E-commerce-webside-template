@@ -11,7 +11,7 @@ import './category.css'
 export const Browsercategory = () => {
     return (
         <section className="section_browse">
-            <div className="container_browser">
+            {/* <div className="container_browser">
                 <div className="browse_title">
                     <h2>Browse By category</h2>
                 </div>
@@ -43,7 +43,7 @@ export const Browsercategory = () => {
                         <h2>Gaming</h2>
                     </article>
                 </section>
-            </div>
+            </div> */}
         </section>
     )
 }
