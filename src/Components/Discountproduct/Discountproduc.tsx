@@ -24,15 +24,14 @@ export const Discountproduc = () => {
   return (
     <section className="section_discount">
       <div className="discount_container">
-        <div>
           <div className="discount_title">
             <h2>Discounts up to -50%</h2>
           </div>
           <div className="discount_item">
             <article className="item_info">
               {products.slice(0, 4).map((product) => (
-                <div key={product.id}>
-                  <div>
+                <div className="item_style" key={product.id}>
+                  <div >
                     {product.img && (
                       <img src={product.img} alt={product.name} />
                     )}
@@ -46,7 +45,6 @@ export const Discountproduc = () => {
               ))}
             </article>
           </div>
-        </div>
       </div>
     </section>
   );

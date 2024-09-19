@@ -28,6 +28,14 @@
     gap: 2rem;
     flex-wrap: wrap;
 }
+.style_products {
+    padding: 1.5rem 1rem 1.5rem 1rem;
+    background-color: rgb(241 241 241);
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    text-align: center;
+}
 .img_pro img {
     width: 100%;
 }

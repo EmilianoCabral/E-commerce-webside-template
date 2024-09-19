@@ -39,9 +39,6 @@ export const Headers: React.FC  = () => {
                                 Contacts Us
                             </li>
                             <li className="itemlist">
-                                Blog
-                            </li>
-                            <li className="itemlist">
                                 <Link to="/Cartcontainer"><Shopcar /></Link>
                             </li>
                             <li className="itemlist">
