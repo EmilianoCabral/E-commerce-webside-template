@@ -6,8 +6,10 @@ import AccordionTransition from "./component/AccordionTransition";
 import { Buttons3 } from "../../Components/buttons/Buttons";
 
 export const Pageproductos = () => {
+
   const [products, setProducts] = useState<ProductsProps[]>([]);
   const [error, setError] = useState<string | null>(null);
+
   useEffect(() => {
     askfordata()
       .then((data) => {
@@ -17,9 +19,11 @@ export const Pageproductos = () => {
         setError(error.message);
       });
   }, []);
+
   if (error) {
     return <div>Error: {error}</div>;
   }
+
   return (
     <div className="page_product">
       <div className="page_container">
