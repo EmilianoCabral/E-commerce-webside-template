@@ -24,6 +24,7 @@
 }
 .slide-left {
     width:27rem;
+    padding-bottom: 5rem;
 }
 
 /*------------------end animation--------------------------------*/
@@ -63,7 +64,6 @@
 .banner_container {
     background-color: black;
 }
-
 
 /*queries*/
 
