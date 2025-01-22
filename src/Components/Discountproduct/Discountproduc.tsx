@@ -18,9 +18,11 @@ export const Discountproduc = () => {
         setError(error.message);
       });
   }, []);
+
   if (error) {
     return <div>Error: {error}</div>;
   }
+
   return (
     <section className="section_discount">
       <div className="discount_container">
@@ -28,7 +30,7 @@ export const Discountproduc = () => {
             <h2>Discounts up to -50%</h2>
           </div>
           <div className="discount_item">
-            <article className="item_info">
+            <div className="item_info">
               {products.slice(0, 4).map((product) => (
                 <div className="item_style" key={product.id}>
                   <div >
@@ -43,7 +45,7 @@ export const Discountproduc = () => {
                   <Buttons3 title="Buy now" />
                 </div>
               ))}
-            </article>
+            </div>
           </div>
       </div>
     </section>
