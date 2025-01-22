@@ -6,8 +6,10 @@ import { askfordata } from '../../data/helpers/askfordata';
 import { ProductsProps } from '../../data/types';
 
 export const Itemslist = () => {
+
     const [products, setProducts] = useState<ProductsProps[]>([]);
     const [error, setError] = useState<string | null>(null);
+
     useEffect(() => {
         askfordata()
             .then((data) => {
@@ -17,9 +19,11 @@ export const Itemslist = () => {
                 setError(error.message);
             });
     }, []);
+
     if (error) {
         return <div>Error: {error}</div>;
     }
+    
     return (
         <>
             <div className="title_art">

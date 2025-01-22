@@ -1,7 +1,7 @@
-import { Smallerbanners } from "../Components/Banners/smallbanner/Smallerbanners"
-import { Bannerproduc } from '../Components/Banners/Banners.produc/Bannerproduc'
+
+import { Bannerproduc } from '../Components/Banners/Bannerproduc'
 import { Discountproduc } from '../Components/Discountproduct/Discountproduc'
-import { Banner } from "../Components/Banners/Banner"
+import { Banner } from "../Components/Hero/Banner"
 import { Product } from "../Components/Productos/Productsitems"
 
 
@@ -9,7 +9,6 @@ export const Home = () => {
     return (
         <>
             <Banner />
-            <Smallerbanners />
             <Product />
             <Bannerproduc />
             <Discountproduc />
