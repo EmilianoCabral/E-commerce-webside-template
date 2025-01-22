@@ -1,6 +1,5 @@
 import { Link } from 'react-router-dom'
 import './button.css'
-import { title } from 'process'
 
 interface props {
     title: string

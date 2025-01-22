@@ -1,5 +1,5 @@
 
-import { Bannerproduc } from '../Components/Banners/Banners.produc/Bannerproduc'
+import { Bannerproduc } from '../Components/Banners/Bannerproduc'
 import { Discountproduc } from '../Components/Discountproduct/Discountproduc'
 import { Banner } from "../Components/Hero/Banner"
 import { Product } from "../Components/Productos/Productsitems"

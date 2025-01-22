@@ -2,8 +2,7 @@ import "./Discountproduc.css";
 import { useEffect, useState } from "react";
 import { askfordata } from "../../data/helpers/askfordata";
 import { ProductsProps } from "../../data/types";
-import { ifError } from "assert";
-import { Buttons, Buttons3 } from "../buttons/Buttons";
+import { Buttons3 } from "../buttons/Buttons";
 
 export const Discountproduc = () => {
   const [products, setProducts] = useState<ProductsProps[]>([]);
